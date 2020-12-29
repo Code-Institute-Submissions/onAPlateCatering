@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Open+Sans&family=Roboto&display=swap');
+
+*{
+    border:0;
+    margin:0;
+    padding:0;   
+}
+
+a{
+    text-decoration: none;
+}
+
+/** Colors **/
+
+.header-nav-list{ background-color: #6FF7E8;}
+footer{background-color: #1F7EA1;}
+.section1{background-color:#5bd9d6 ;}
+.section2{background-color: #47bbc5;}
+.section3{background-color: #339cb3;}
+
+
+/** Header **/
+.header{
+    border:0;
+    margin:0;
+    padding:0;  
+}
+
+.header-image{
+    height:10rem;
+    width: 100%;
+    background: url(../images/newlogo.png) no-repeat center ;
+    background-size: contain;
+    border:0;
+    margin:0;
+    padding:0;
+    background-color:#000;
+}
+
+.header-nav-list{
+ list-style: none;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding-right: 2rem;
+ margin:0;
+ 
+}
+
+.header-nav-list-item a{
+text-decoration: none;
+font-size: 1rem;
+font-family: "Josefin Sans", "sans-serif";
+text-transform:uppercase;
+color: #000000;
+}
+/** Sections **/
+
+.section1, .section2, .section3 {
+   width: 100%;
+   height: 5rem; 
+}
+
+/** Footer **/
+
+footer{
+    width: 100%;
+    height: 5rem;
+}
+
+.footer-list{
+ list-style: none;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding-right: 2rem;
+}
+
+.footer-list-item a{
+text-decoration: none;
+font-size: 1.5rem;
+color: #6FF7E8;
+}
+
+.copyright-text{
+    text-align:center;
+    font-size: 1rem;
+}
+/** Media Queries **/
+
+@media (min-width: 576px) {
+  
+  
+}
+@media (min-width: 768px) {
+  
+}
+@media (min-width: 992px) { 
+  
+}
+@media (min-width: 1200px) { 
+  
+  
+}
