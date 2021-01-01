@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Open+Sans&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+/** General styles **/
 *{
     border:0;
     margin:0;
@@ -8,6 +9,22 @@
 
 a{
     text-decoration: none;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.font1{
+    font-family: "Cormorant Garamond", sans-serif;
+}
+
+.bold{
+    font-weight: 500;
+}
+
+.align-center{
+    text-align: center;
 }
 
 /** Colors **/
@@ -24,7 +41,9 @@ footer{background-color: #1F7EA1;}
 .header{
     border:0;
     margin:0;
-    padding:0;  
+    padding:0; 
+    height:auto; 
+
 }
 
 .header-image {
@@ -56,21 +75,85 @@ button.navbar-toggler{
  margin:0;
  
 }
+li{
+font-size: 1.2rem;
+font-family: "Cormorant Garamond", sans-serif;
+color: #000000;
+
+}
 
 .header-nav-list-item a{
 text-decoration: none;
-font-size: 0.9rem;
-font-family: "Josefin Sans", "sans-serif";
-text-transform:uppercase;
-color: #000000;
+
 }
 
 
 /** Sections **/
 
-.section1, .section2, .section3 {
+.section1, .section2, .section3, .hero-image-section {
    width: 100%;
-   height: 20rem; 
+   min-height: 20rem; 
+
+}
+
+.section1{
+    margin-top:9rem;
+}
+
+/** 
+.hero-image-section{
+    background: url(../images/table.jpg) no-repeat;
+    background-size: cover; 
+} **/
+
+/** Hero image section **/
+
+.hero-image-section{
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-image-section h1, .hero-image-section h2{
+    position: relative;
+    top:2rem;
+    z-index: 2;
+    text-align: center;
+    color: #000000;  
+}
+
+.hero-image-section button {
+    position: relative;
+    top: 8.5rem;
+    z-index: 2;
+}
+
+button.btn-success{
+    color: #fffaf0;
+    background-color: #1F7EA1;
+    border-color: #1F7EA1;
+}
+
+
+
+.hero-image-section:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.4;
+    background-image: url('../images/table.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.section-heading{
+    text-align: center;
+    color: #000000;  
 }
 
 /** Footer **/
