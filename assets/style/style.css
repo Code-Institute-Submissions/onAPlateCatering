@@ -90,7 +90,7 @@ text-decoration: none;
 
 /** Sections **/
 
-.section1, .section2, .section3, .hero-image-section {
+.section1, .section2, .hero-image-section {
    width: 100%;
    min-height: 20rem; 
 
@@ -99,6 +99,12 @@ text-decoration: none;
 .section1{
     margin-top:9rem;
 }
+
+.section3{
+    min-height: fit-content;
+    padding-bottom: 10px;
+}
+
 
 /** 
 .hero-image-section{
@@ -155,6 +161,40 @@ button.btn-success{
     text-align: center;
     color: #000000;  
 }
+#what-we-offer{
+    padding-top:1rem;
+}
+.what-we-offer-section{
+    width:100%;
+    display:block;
+    text-align: center;
+    padding-bottom:2rem;
+}
+
+.offer-image{
+    width:160px;
+    height:160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #aaa9ad;
+    opacity: 0.6;
+}
+
+.layout-flex{
+    margin-top: 2rem;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+#testimonials{
+    padding-top: 1rem;
+}
+
+.carousal-position{
+    padding-top:1rem;
+}
 
 /** Footer **/
 
@@ -185,6 +225,10 @@ color: #6FF7E8;
 
 @media (min-width: 500px) {
   .header-nav-list{flex-direction: row;}
+  .layout-flex{
+      display: flex;
+      
+  }
   
 }
 @media (min-width: 768px) {
