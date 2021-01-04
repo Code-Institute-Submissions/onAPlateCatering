@@ -4,7 +4,8 @@
 *{
     border:0;
     margin:0;
-    padding:0;   
+    padding:0;  
+    
 }
 
 a{
@@ -25,6 +26,10 @@ a{
 
 .align-center{
     text-align: center;
+}
+
+.text-size{
+    font-size: 1rem;
 }
 
 /** Colors **/
@@ -196,6 +201,60 @@ button.btn-success{
     padding-top:1rem;
 }
 
+/** Get a quote / form **/
+
+.section2 h2{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.form-element{
+    width:75%;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    text-align-last:center;
+    background-color: #47bbc5;
+   
+}
+ form{
+     text-align: center;
+     padding-top: 2rem;
+     padding-bottom: 2rem;
+ }
+
+ select{
+     text-align-last:center;
+     font-family: "Cormorant Garamond", sans-serif;
+     font-weight: 300;
+    }
+
+/** Contact Page **/
+
+
+.contact{
+   display:block; 
+   text-align: center;
+   max-width:100%;
+   
+}
+.contact-heading{
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    width:100%;
+}
+.contact-section-details{
+    font-size: 1rem;
+}
+
+#location-map{
+    display:inline-block;
+    object-fit: scale-down;
+  
+}
+
+
 /** Footer **/
 
 footer{
@@ -217,6 +276,7 @@ font-size: 1.5rem;
 color: #6FF7E8;
 }
 
+
 .copyright-text{
     text-align:center;
     font-size: 1rem;
@@ -227,9 +287,11 @@ color: #6FF7E8;
   .header-nav-list{flex-direction: row;}
   .layout-flex{
       display: flex;
-      
   }
-  
+  .form-element{
+    width:50%;
+}
+
 }
 @media (min-width: 768px) {
   

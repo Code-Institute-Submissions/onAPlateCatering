@@ -14,6 +14,9 @@
 </head>
 <body>
      
+
+
+    
     <header class="header">
 
         <!--- Credit to Bootstrap for Navbar - customisation has been made using bootstrap classes -->
@@ -46,21 +49,43 @@
  
     </header>
 
-
-
-    <section class="section1">
-        Form
-
+    <section class="section1 hero-image-section">
+       
+            <h1 class="uppercase font1 bold">Catering for your needs.</h1>
+            <h2 class="uppercase font1 bold">We Bring Tasty food to you.</h2>
+            
     </section>
 
     <section class="section2">
-        
-    </section> 
 
-
-    <section class="section3">
+        <h2 class="uppercase font1 bold"> Request a Quote</h2>
+        <form method="post">
         
-    </section> 
+            <label  class="uppercase font1" for="name">Name:</label> <br>
+            <input  class="form-element" type="text" id="name" name="name" required> <br>
+           
+            <label class="uppercase font1" for="email">Email:</label> <br>
+            <input class="form-element" type="email"  id="email" name="email" required> <br>
+           
+            <label class="uppercase font1" for="phone">Phone Number:</label> <br>
+            <input class="form-element" type="tel" id="phone" name="phone" required> <br>
+            
+            <label class="uppercase font1"  for="cars">Choose a catering occassion:</label> <br>
+            <select  class="form-element" id="catering" name="catering">
+            <option class="font1" value="wedding">Wedding</option>
+            <option class="font1" value="corporate">Corporate</option>
+            <option class="font1" value="home">Home</option>
+            </select> <br>
+
+            <label class="uppercase font1"  for="special-requests">Any Special Requests:</label> <br>
+            <textarea  placeholder="Type your message here" class="form-element" name="special-requests" rows="6" ></textarea> <br>
+
+            <input class="form-element font1"  type="submit" onclick="alert('We will be in contact shortly with your quote')" value="SUBMIT">
+        </form>
+
+    </section>
+
+    
 
     <footer>
         <ul class="footer-list">
