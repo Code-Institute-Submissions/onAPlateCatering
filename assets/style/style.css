@@ -24,12 +24,21 @@ a{
     font-weight: 500;
 }
 
+.italic{
+    font-style: italic;
+}
+
 .align-center{
     text-align: center;
 }
 
 .text-size{
     font-size: 1rem;
+}
+
+.underline{
+    text-decoration: underline;
+    
 }
 
 /** Colors **/
@@ -97,16 +106,17 @@ text-decoration: none;
 
 .section1, .section2, .hero-image-section {
    width: 100%;
-   min-height: 20rem; 
+   min-height: min-content; 
 
 }
 
 .section1{
     margin-top:9rem;
+    min-height:20rem;
 }
 
 .section3{
-    min-height: fit-content;
+    min-height: min-content; 
     padding-bottom: 10px;
 }
 
@@ -189,16 +199,25 @@ button.btn-success{
     margin-top: 2rem;
 }
 
-.carousel-inner img {
-  margin: auto;
+.quote{
+    padding: 2px 10px;
 }
 
-#testimonials{
+.testimonial{
+    display:flex;
+    flex-direction: column;
+}
+
+.testimonial-section{
+    width:100%;
+    display:block;
+    text-align: center;
+    padding-bottom:10px 5px;
+}
+
+#testimonial-heading{
     padding-top: 1rem;
-}
-
-.carousal-position{
-    padding-top:1rem;
+    padding-bottom:2rem;
 }
 
 /** Get a quote / form **/
@@ -253,7 +272,56 @@ button.btn-success{
     object-fit: scale-down;
   
 }
+/** Menu Page **/
 
+
+
+#menu-section{
+    position: relative;
+    overflow: hidden;
+}
+
+#menu-section h1{
+    position: relative;
+    top:8rem;
+    z-index: 2;
+    text-align: center;
+    color: #000000;  
+}
+
+#menu-section:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url('../images/cake.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+
+.menu-item{
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 25px 10px;
+    margin-bottom: 0rem;
+}
+
+#starter{
+    padding-top:20px;
+}
+
+#menu-section button {
+    position: relative;
+    top: 10.5rem;
+    z-index: 2;
+}
 
 /** Footer **/
 
@@ -290,6 +358,11 @@ color: #6FF7E8;
   }
   .form-element{
     width:50%;
+}
+
+.testimonial{
+    display:flex;
+    flex-direction: row;
 }
 
 }
