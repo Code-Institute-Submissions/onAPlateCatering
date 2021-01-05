@@ -248,6 +248,9 @@ button.btn-success{
      font-weight: 300;
     }
 
+textarea::placeholder {
+    color:#000;
+}
 /** Contact Page **/
 
 
