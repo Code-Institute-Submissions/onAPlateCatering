@@ -4,8 +4,11 @@
 *{
     border:0;
     margin:0;
-    padding:0;  
-    
+    padding:0;   
+}
+
+html, body{
+    overscroll-behavior: none;
 }
 
 a{
@@ -144,7 +147,7 @@ text-decoration: none;
 
 .hero-image-section button {
     position: relative;
-    top: 8.5rem;
+    top: 7.5rem;
     z-index: 2;
 }
 
