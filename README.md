@@ -6,20 +6,11 @@ This first milestone project will result in the creation of a static responsive 
 On A Plate Catering is a fictional business that wants to provide excellent food service by delivery of delicious cooked, crowd pleasing dishes. 
 
 On A Plate Catering's website is aimed at those looking for food service for events such as weddings, home events (birthday) and coorporate events such as a conference. 
-The webiste will be a platform to allow the business to advertise and to provide sufficent information to attract new businesses. The aim of the website is to allow interested customers to understand the busiesses service and contact the business if they feel they would like to use this service.
+The webiste will be a platform to allow the business to advertise and to provide sufficent information to attract new businesses. The aim of the website is to allow interested customers to understand the busiesses service and contact the business if they would like to use this service.
 
 ## Table of Contents
 
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
-
 
 ### Goals 
 
@@ -51,7 +42,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 * I would like to see reviews from other customers who used service.
 * I would like to know if the catering service can provide a regular service such as canteen food (soups, sandwichs, pastries) or just set number events
 
-#### A event organiser
+#### An event organiser
 * I would like to be able to view a menu of food
 * I would like to contact to see if a special dish can be made for my event, (i.e can you customize the menu). 
 * I would like to be able to request a quote.
@@ -70,10 +61,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 ### Wireframes
 Wireframes for this project were created using Balsamiq and can be viewed at below link.
 
-Link to wireframe
-
-
-
+Link to [Wireframe](/assets/wireframes/On a Plate Catering wireframes.pdf)
 
 
 ## Features
