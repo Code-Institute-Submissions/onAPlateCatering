@@ -1,132 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>On a Plate</title>
-    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/style.css" />
     <!-- Bootstrap framework CDN-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">  
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
     <!-- FontAwesome CDN-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css ">
-</head>
-<body>
-     
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css "
+    />
+  </head>
+  <body>
     <header class="header">
+      <!--- Credit to Bootstrap for Navbar - customisation has been made using bootstrap classes -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            class="header-image"
+            src="assets/images/newlogo.png"
+            alt="logo image"
+        /></a>
 
-        <!--- Credit to Bootstrap for Navbar - customisation has been made using bootstrap classes -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom">
-            
-        <a class="navbar-brand" href="index.html"><img class="header-image" src="assets/images/newlogo.png" alt="logo image"></a>
-            
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
-             
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav nav-fill w-100">
-        <li class="nav-item uppercase">
-            <a class="nav-link" href="index.html">Home </a>
-        </li>
 
-        <li class="nav-item active uppercase">
-            <a class="nav-link" href="menu.html">Menu <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item uppercase">
-            <a class="nav-link" href="quote.html">Get a Quote</a>
-        </li>
-        <li class="nav-item uppercase">
-            <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav nav-fill w-100">
+            <li class="nav-item uppercase">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+
+            <li class="nav-item active uppercase">
+              <a class="nav-link" href="menu.html"
+                >Menu <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item uppercase">
+              <a class="nav-link" href="quote.html">Get a Quote</a>
+            </li>
+            <li class="nav-item uppercase">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-        </nav>
- 
+      </nav>
     </header>
 
-
-
     <section class="section1" id="menu-section">
-            <h1 class="uppercase font1 bold">Menu</h1>
-            <div class="align-center">
-            <a href="quote.html"><button type="button" class="btn btn-success uppercase">Get a quote</button></a>
-            </div>
-             
+      <h1 class="uppercase font1 bold">Menu</h1>
+      <div class="align-center">
+        <a href="quote.html"
+          ><button type="button" class="btn btn-success uppercase">
+            Get a quote
+          </button></a
+        >
+      </div>
     </section>
 
     <section class="section2">
-        <h3 class="uppercase section-heading font1 align-center underline" id="starter">Starters</h3>
-        <p class="menu-item font1 align-center">Chicken liver pate, Madeira jelly, quince chutney, cinnamon brioche <br><br>
-            Roast scallops, celeriac puree, curry oil, raisins, pinenuts<br><br>
-            Thai-style fish cakes, lime aioli, pickled ginger, toasted sesame seeds<br><br>
-            Slow-roasted beetroot salad, goat's cheese, toasted pumpkins seeds, green apple fritter <br><br>
-            Smoked mackerel, pickled fennel, pea shoot salad, horseradish cream <br><br>
-            Beetroot and Bushmills cured salmon, horseradish crème fraiche, grilled asparagus, citrus tarragon dressing <br><br>
-            Crispy ham hock fritter, brown butter mash, mustard greens, toffee apple dressing <br><br>
-            Blue cheese and candied walnut salad, maple-roasted pear, chardonnay dressing <br><br>
-        </p>
-    </section> 
-
-
-    <section class="section2">
-        <h3 class="uppercase section-heading font1 underline">Soups</h3>
-        <p class="menu-item font1 align-center"> Farmhouse Vegetable Broth <br><br>
-            Comber Potato and Leek Soup <br><br>
-            Apple and Celery <br><br>
-            Tomato and Basil Soup <br><br>
-            Roast Spiced Butternut Squash <br><br>
-            Roast Chicken and Thyme <br><br>
-            Smoked Bacon, Sage and Onion <br><br>
-            Sweet Potato and Roasted Red Pepper <br><br>
-            Cauliflower, Cashel Blue Cheese, and Spring Onion <br><br>
-            Cream of Wild Mushroom and Truffle<br><br>
-        </p>
-    </section> 
+      <h3
+        class="uppercase section-heading font1 align-center underline"
+        id="starter"
+      >
+        Starters
+      </h3>
+      <p class="menu-item font1 align-center">
+        Chicken liver pate, Madeira jelly, quince chutney, cinnamon brioche
+        <br /><br />
+        Roast scallops, celeriac puree, curry oil, raisins, pinenuts<br /><br />
+        Thai-style fish cakes, lime aioli, pickled ginger, toasted sesame
+        seeds<br /><br />
+        Slow-roasted beetroot salad, goat's cheese, toasted pumpkins seeds,
+        green apple fritter <br /><br />
+        Smoked mackerel, pickled fennel, pea shoot salad, horseradish cream
+        <br /><br />
+        Beetroot and Bushmills cured salmon, horseradish crème fraiche, grilled
+        asparagus, citrus tarragon dressing <br /><br />
+        Crispy ham hock fritter, brown butter mash, mustard greens, toffee apple
+        dressing <br /><br />
+        Blue cheese and candied walnut salad, maple-roasted pear, chardonnay
+        dressing <br /><br />
+      </p>
+    </section>
 
     <section class="section2">
-        <h3 class="uppercase section-heading font1 align-center underline">Mains</h3>
-        <p class="menu-item font1 align-center">
-            Breast of Chicken stuffed with Rocket, Sun-blush Tomatoes & Mozzarella, wrapped in Parma Ham, served with Tomato & White Wine Sauce<br><br>
-            Roast turkey and ham, stuffing croquette, beef dripping potato, red wine jus, glazed carrot<br><br>
-            Roast pork tenderloin, crispy crackling, apple and sage mash, creamed savoy cabbage, cider gravy<br><br>
-            Braised beef mini pot, boulangere potatoes, stout mustard, savoy, port and pearl onion jus<br><br>
-            Garlic and rosemary daube of beef, saffron mash, parsnip puree, asparagus, caramelised onion gravy<br><br>
-            Lamb cutlets, roasted red onion mash, red wine and thyme jus, honey roast root vegetables<br><br>
-            Roast rack of pork, toffee apple, toffee apple jus, pistachio crumble, crackling, colcannon, pickled and braised cabbage<br><br>
-            Oven-baked salmon fillet, crushed potatoes, peas, broad beans, salsa verde <br><br>
-            Smoked haddock risotto, pea puree, pine nuts, pancetta crisp<br><br>
-            Stuffed aubergine, baked with spinach, pine nuts, pecorino <br><br>
-            Roast vegetable and butterbean curry, coconut cream<br><br>
-            Spinach, goat's cheese, and ricotta terrine<br><br>
-        </p>
-    </section> 
+      <h3 class="uppercase section-heading font1 underline">Soups</h3>
+      <p class="menu-item font1 align-center">
+        Farmhouse Vegetable Broth <br /><br />
+        Comber Potato and Leek Soup <br /><br />
+        Apple and Celery <br /><br />
+        Tomato and Basil Soup <br /><br />
+        Roast Spiced Butternut Squash <br /><br />
+        Roast Chicken and Thyme <br /><br />
+        Smoked Bacon, Sage and Onion <br /><br />
+        Sweet Potato and Roasted Red Pepper <br /><br />
+        Cauliflower, Cashel Blue Cheese, and Spring Onion <br /><br />
+        Cream of Wild Mushroom and Truffle<br /><br />
+      </p>
+    </section>
 
     <section class="section2">
-        <h3 class="uppercase section-heading font1 align-center underline">Desserts</h3>
-        <p class="menu-item font1 align-center">Summer Berry Meringue with Homemade Fruit Coulis & Clotted Cream<br><br>
-            Strawberry, Rose & Rhubarb Fool with Homemade Ginger Biscuit<br><br>
-            Lemon Posset with Fresh Raspberries & Homemade Shortbread<br><br>
-            Maple Pannacotta & Caramelised Pineapple<br><br>
-            Classic Chocolate and Espresso Mousse in a ramekin<br><br>
-            Chocolate & Hazelnut Brownie, Warm Chocolate Shot & Clotted Cream<br><br>
-            Homemade Creme Brulee with Homemade Shortbread<br><br>
-        </p>
-    </section> 
+      <h3 class="uppercase section-heading font1 align-center underline">
+        Mains
+      </h3>
+      <p class="menu-item font1 align-center">
+        Breast of Chicken stuffed with Rocket, Sun-blush Tomatoes & Mozzarella,
+        wrapped in Parma Ham, served with Tomato & White Wine Sauce<br /><br />
+        Roast turkey and ham, stuffing croquette, beef dripping potato, red wine
+        jus, glazed carrot<br /><br />
+        Roast pork tenderloin, crispy crackling, apple and sage mash, creamed
+        savoy cabbage, cider gravy<br /><br />
+        Braised beef mini pot, boulangere potatoes, stout mustard, savoy, port
+        and pearl onion jus<br /><br />
+        Garlic and rosemary daube of beef, saffron mash, parsnip puree,
+        asparagus, caramelised onion gravy<br /><br />
+        Lamb cutlets, roasted red onion mash, red wine and thyme jus, honey
+        roast root vegetables<br /><br />
+        Roast rack of pork, toffee apple, toffee apple jus, pistachio crumble,
+        crackling, colcannon, pickled and braised cabbage<br /><br />
+        Oven-baked salmon fillet, crushed potatoes, peas, broad beans, salsa
+        verde <br /><br />
+        Smoked haddock risotto, pea puree, pine nuts, pancetta crisp<br /><br />
+        Stuffed aubergine, baked with spinach, pine nuts, pecorino <br /><br />
+        Roast vegetable and butterbean curry, coconut cream<br /><br />
+        Spinach, goat's cheese, and ricotta terrine<br /><br />
+      </p>
+    </section>
+
+    <section class="section2">
+      <h3 class="uppercase section-heading font1 align-center underline">
+        Desserts
+      </h3>
+      <p class="menu-item font1 align-center">
+        Summer Berry Meringue with Homemade Fruit Coulis & Clotted Cream<br /><br />
+        Strawberry, Rose & Rhubarb Fool with Homemade Ginger Biscuit<br /><br />
+        Lemon Posset with Fresh Raspberries & Homemade Shortbread<br /><br />
+        Maple Pannacotta & Caramelised Pineapple<br /><br />
+        Classic Chocolate and Espresso Mousse in a ramekin<br /><br />
+        Chocolate & Hazelnut Brownie, Warm Chocolate Shot & Clotted Cream<br /><br />
+        Homemade Creme Brulee with Homemade Shortbread<br /><br />
+      </p>
+    </section>
 
     <footer>
-         <ul class="footer-list">
-                
-                <li class="footer-list-item"><a href="https://www.facebook.com/" target="_blank" ><i class="fab fa-facebook-f"></i></a></li>
-                <li class="footer-list-item"><a href="https://twitter.com/?lang=en" target="_blank" ><i class="fab fa-twitter"></i></a></li>
-                <li class="footer-list-item"><a href="https://ie.linkedin.com/" target="_blank" ><i class="fab fa-linkedin-in"></i></a></li>    
-        </ul>
-        <p class="copyright-text">© 2020 Joanne Carrig </p>
+      <ul class="footer-list">
+        <li class="footer-list-item">
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+        </li>
+        <li class="footer-list-item">
+          <a href="https://twitter.com/?lang=en" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="footer-list-item">
+          <a href="https://ie.linkedin.com/" target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+      </ul>
+      <p class="copyright-text">© 2020 Joanne Carrig</p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
