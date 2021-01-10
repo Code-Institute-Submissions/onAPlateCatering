@@ -46,6 +46,14 @@ a {
   text-decoration: underline;
 }
 
+li {
+  font-size: 1.2rem;
+  font-family: "Cormorant Garamond", sans-serif;
+  color: #000000;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 /** Colors **/
 .navbar-custom {
   background-color: #6ff7e8;
@@ -108,11 +116,7 @@ button.navbar-toggler {
   padding-right: 2rem;
   margin: 0;
 }
-li {
-  font-size: 1.2rem;
-  font-family: "Cormorant Garamond", sans-serif;
-  color: #000000;
-}
+
 
 .header-nav-list-item a {
   text-decoration: none;
@@ -232,7 +236,7 @@ button.btn-success {
 
 /** Get a quote / form  Page **/
 
-.section2 h2 {
+.section1 h2 {
   text-align: center;
   padding-top: 1rem;
 }
@@ -260,6 +264,7 @@ select {
 textarea::placeholder {
   color: #000;
 }
+
 /** Contact Page **/
 
 .contact {
@@ -319,6 +324,8 @@ textarea::placeholder {
   margin-bottom: 0rem;
 }
 
+
+
 #starter {
   padding-top: 20px;
 }
@@ -333,7 +340,7 @@ textarea::placeholder {
 
 footer {
   width: 100%;
-  height: 5rem;
+  height: 7rem;
 }
 
 .footer-list {
@@ -348,11 +355,17 @@ footer {
   text-decoration: none;
   font-size: 1.5rem;
   color: #6ff7e8;
+  border:0;
+}
+
+.footer-list-item {
+  padding-top: 1rem;
 }
 
 .copyright-text {
   text-align: center;
   font-size: 1rem;
+  padding-bottom: 1rem;
 }
 /** Media Queries **/
 
@@ -367,10 +380,18 @@ footer {
     width: 50%;
   }
 
-  .testimonial {
+  .testimonial-section {
     display: flex;
     flex-direction: row;
   }
+ .contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+ }
+
 }
 @media (min-width: 768px) {
 }
