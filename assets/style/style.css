@@ -78,11 +78,29 @@ li {
 .what-we-offer-section, .the-menu {
   background-color: #47bbc5;
 }
-.testimonial-section, .testimonial, .menu-item, body{
+.testimonial-section, .testimonial, body{
   background-color: #339cb3;
 }
 footer {
   background-color: #1f7ea1;
+}
+
+.starters-color{
+    
+    background-color:#2F96AF;
+}
+
+.soups-color{
+    
+    background-color: #3FAEBD;
+}
+
+.mains-color{
+background-color:#2F96AF;
+}
+
+.dessert-color{
+background-color: #3FAEBD;
 }
 
 /**------------------Navigation bar - shared across all pages ------------------------------------------ **/
@@ -126,7 +144,7 @@ span.navbar-toggler-icon{
   text-decoration: none;
 }
 
-/**--------------------- Footer - shared across all pages ---------------------------------------------**/
+/**--------------------- Footer - shared across all pages ----------------------------------------------------------------**/
 
 footer {
   width: 100%;
@@ -232,6 +250,8 @@ button.btn-success {
 .what-we-offer-section{
   width: 100%;
   min-height: min-content;
+  padding-left:1rem;
+  padding-right:1rem;
 }
 
 .what-we-offer-subsection {
@@ -247,7 +267,13 @@ button.btn-success {
   object-fit: cover;
   border-radius: 50%;
   border: 1px solid #aaa9ad;
-  opacity: 0.6;
+  opacity: 0.8;
+  
+}
+
+.offer-text{
+    padding-top:1rem;
+    padding-bottom: 0.5rem;
 }
 
 .layout-flex {
@@ -261,6 +287,8 @@ button.btn-success {
 .testimonial-section{
   min-height: min-content;
   padding-bottom: 10px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .testimonials{
@@ -273,6 +301,23 @@ button.btn-success {
   display: block;
   text-align: center;
   padding-bottom: 2px;
+}
+
+.testimonial-image{
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 1px solid #aaa9ad;
+  
+}
+
+#wedding-image {
+    background-color: #b5b1b0;
+}
+
+#woman-image{
+    background-color: #282828;
 }
 
 
@@ -291,17 +336,18 @@ button.btn-success {
 
 .quote h2 {
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 .form-element {
-  width: 75%;
+  width: 85%;
   padding: 10px 10px;
   margin-bottom: 15px;
   border: 1px solid #000000;
   text-align-last: center;
   background-color: #47bbc5;
 color: #585858;
+font-size: 1rem;
 }
 
 ::placeholder{
@@ -323,11 +369,14 @@ select {
  background-color: #339cb3;
  color: #000;
  font-weight:1000;
- width:20%;
- padding: 1rem 1rem;
+ width:30%;
+ text-align: center;
  
 }
 
+.text-size-quote{
+font-size: 1.1rem;;
+}
 
 /**----------------------------------------------------- Contact Page --------------------------------------------------**/
 
@@ -348,9 +397,10 @@ select {
   padding-top: 2rem;
   margin-bottom: 2rem;
   width: 100%;
+  font-weight: bolder;
 }
 .address{
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 #location-map {
@@ -398,8 +448,8 @@ select {
   margin-bottom: 0rem;
 }
 
-#starter {
-  padding-top: 0.5rem;
+#starter, #main, #soup, #dessert {
+  padding-top: 1rem;
    
 }
 
