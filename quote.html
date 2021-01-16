@@ -38,7 +38,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -63,11 +63,12 @@
       </nav>
     </header>
 
-    <section class="section1">
+    <section class="quote">
       <h2 class="uppercase font1 bold">Request a Quote</h2>
       <form class="form">
         <label class="uppercase font1" for="name">Name:</label> <br />
         <input
+        placeholder="Enter your name here"
           class="form-element"
           type="text"
           id="name"
@@ -78,6 +79,7 @@
 
         <label class="uppercase font1" for="email">Email:</label> <br />
         <input
+        placeholder="Enter your email address here"
           class="form-element"
           type="email"
           id="email"
@@ -88,6 +90,7 @@
 
         <label class="uppercase font1" for="phone">Phone Number:</label> <br />
         <input
+        placeholder="Enter you mobile number here"
           class="form-element"
           type="tel"
           id="phone"
@@ -96,11 +99,12 @@
         />
         <br />
 
-        <label class="uppercase font1" for="cars"
+        <label class="uppercase font1" for="catering"
           >Choose a catering occassion:</label
         >
         <br />
         <select class="form-element" id="catering" name="catering">
+          <option value="" disabled selected>Select your catering option from the dropdown list</option>
           <option class="font1" value="wedding">Wedding</option>
           <option class="font1" value="corporate">Corporate</option>
           <option class="font1" value="home">Home</option>
@@ -120,9 +124,8 @@
         <br />
 
         <input
-          class="form-element font1"
+          class="font1 quote-button"
           type="submit"
-          onclick="alert('We will be in contact shortly with your quote')"
           value="SUBMIT"
         />
       </form>
