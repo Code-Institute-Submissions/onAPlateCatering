@@ -54,6 +54,10 @@ li {
   padding-bottom: 1rem;
 }
 
+.active{
+    text-decoration: underline;
+}
+
 /** Colors **/
 .navbar-custom {
   background-color: #6ff7e8;
@@ -88,11 +92,9 @@ footer {
 }
 
 .header-image {
-  max-height: 8rem;
+  max-height: 9.5rem;
   width: auto;
-  object-fit: fill;
-  filter: invert(77%) sepia(98%) saturate(246%) hue-rotate(103deg)
-    brightness(102%) contrast(94%);
+  object-fit: cover;
 }
 
 .navbar-brand {
@@ -101,6 +103,10 @@ footer {
   margin: 0;
   padding: 0;
 }
+a.nav-link{
+    color:#000;
+}
+
 button.navbar-toggler {
   border: none;
   margin-right: 10px;
