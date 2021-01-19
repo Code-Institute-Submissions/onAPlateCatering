@@ -3,6 +3,19 @@
 
 /**-------------------------------------General styles-------------------------------------------------------------------**/
 
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+}
+
+
 * {
   border: 0;
   margin: 0;
@@ -54,12 +67,12 @@ li {
   padding-bottom: 1rem;
 }
 
-.active{
-    text-decoration: underline;
+.active {
+  text-decoration: underline;
 }
 
-.fa-bars{ 
-    font-size: 2rem;
+.fa-bars {
+  font-size: 2rem;
 }
 
 /** ------------------------------------------Colors --------------------------------------------------------------- **/
@@ -72,42 +85,43 @@ li {
 .header-nav-list {
   background-color: #6ff7e8;
 }
-.quote, .contact-details-section {
+.quote,
+.contact-details-section {
   background-color: #5bd9d6;
 }
-.what-we-offer-section, .the-menu {
+.what-we-offer-section,
+.the-menu {
   background-color: #47bbc5;
 }
-.testimonial-section, .testimonial, body{
+.testimonial-section,
+.testimonial,
+body {
   background-color: #339cb3;
 }
 footer {
   background-color: #1f7ea1;
 }
 
-.starters-color{
-    
-    background-color:#2F96AF;
+.starters-color {
+  background-color: #2f96af;
 }
 
-.soups-color{
-    
-    background-color: #3FAEBD;
+.soups-color {
+  background-color: #3faebd;
 }
 
-.mains-color{
-background-color:#2F96AF;
+.mains-color {
+  background-color: #2f96af;
 }
 
-.dessert-color{
-background-color: #3FAEBD;
+.dessert-color {
+  background-color: #3faebd;
 }
 
 /**------------------Navigation bar - shared across all pages ------------------------------------------ **/
 
-
-.navbar.navbar-expand-lg.fixed-top.navbar-custom{
-padding:0;
+.navbar.navbar-expand-lg.fixed-top.navbar-custom {
+  padding: 0;
 }
 .navbar-brand {
   display: contents;
@@ -115,9 +129,9 @@ padding:0;
   margin: 0;
   padding: 0;
 }
-a.nav-link{
-    color:#000;
-    font-size:1.5rem;
+a.nav-link {
+  color: #000;
+  font-size: 1.5rem;
 }
 
 button.navbar-toggler {
@@ -125,8 +139,8 @@ button.navbar-toggler {
   margin-right: 10px;
 }
 
-span.navbar-toggler-icon{
-    color: #000;
+span.navbar-toggler-icon {
+  color: #000;
 }
 
 .header-nav-list {
@@ -163,7 +177,7 @@ footer {
   text-decoration: none;
   font-size: 1.5rem;
   color: #6ff7e8;
-  border:0;
+  border: 0;
 }
 
 .footer-list-item {
@@ -178,7 +192,6 @@ footer {
 
 /** -------------------------------------- Home Page  --------------------------------------------------------------- **/
 
-
 .header {
   border: 0;
   margin: 0;
@@ -191,8 +204,6 @@ footer {
   width: auto;
   object-fit: cover;
 }
-
-
 
 .home-hero-image-section {
   position: relative;
@@ -247,11 +258,11 @@ button.btn-success {
   padding-top: 1rem;
 }
 
-.what-we-offer-section{
+.what-we-offer-section {
   width: 100%;
   min-height: min-content;
-  padding-left:1rem;
-  padding-right:1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .what-we-offer-subsection {
@@ -268,12 +279,11 @@ button.btn-success {
   border-radius: 50%;
   border: 1px solid #aaa9ad;
   opacity: 0.8;
-  
 }
 
-.offer-text{
-    padding-top:1rem;
-    padding-bottom: 0.5rem;
+.offer-text {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .layout-flex {
@@ -284,14 +294,14 @@ button.btn-success {
   padding: 2px 10px;
 }
 
-.testimonial-section{
+.testimonial-section {
   min-height: min-content;
   padding-bottom: 10px;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.testimonials{
+.testimonials {
   display: flex;
   flex-direction: column;
 }
@@ -303,23 +313,21 @@ button.btn-success {
   padding-bottom: 2px;
 }
 
-.testimonial-image{
+.testimonial-image {
   width: 160px;
   height: 160px;
   object-fit: contain;
   border-radius: 50%;
   border: 1px solid #aaa9ad;
-  
 }
 
 #wedding-image {
-    background-color: #b5b1b0;
+  background-color: #b5b1b0;
 }
 
-#woman-image{
-    background-color: #282828;
+#woman-image {
+  background-color: #282828;
 }
-
 
 #testimonial-heading {
   padding-top: 1rem;
@@ -328,10 +336,10 @@ button.btn-success {
 
 /**--------------------------------------------Get a quote Page --------------------------------------------------------**/
 
-.quote{
-    margin-top: 9rem;
+.quote {
+  margin-top: 9rem;
   min-height: min-content;
-  width:100%;
+  width: 100%;
 }
 
 .quote h2 {
@@ -346,12 +354,12 @@ button.btn-success {
   border: 1px solid #000000;
   text-align-last: center;
   background-color: #47bbc5;
-color: #585858;
-font-size: 1rem;
+  color: #585858;
+  font-size: 1rem;
 }
 
-::placeholder{
-    color: 	#585858;
+::placeholder {
+  color: #585858;
 }
 form {
   text-align: center;
@@ -365,22 +373,21 @@ select {
   font-weight: 300;
 }
 
-.quote-button{
- background-color: #339cb3;
- color: #000;
- font-weight:1000;
- width:30%;
- text-align: center;
- 
+.quote-button {
+  background-color: #339cb3;
+  color: #000;
+  font-weight: 1000;
+  width: 30%;
+  text-align: center;
 }
 
-.text-size-quote{
-font-size: 1.1rem;;
+.text-size-quote {
+  font-size: 1.1rem;
 }
 
 /**----------------------------------------------------- Contact Page --------------------------------------------------**/
 
-.contact-details-section{
+.contact-details-section {
   width: 100%;
   margin-top: 9rem;
   min-height: 28rem;
@@ -399,7 +406,7 @@ font-size: 1.1rem;;
   width: 100%;
   font-weight: bolder;
 }
-.address{
+.address {
   font-size: 1.5rem;
 }
 
@@ -448,9 +455,11 @@ font-size: 1.1rem;;
   margin-bottom: 0rem;
 }
 
-#starter, #main, #soup, #dessert {
+#starter,
+#main,
+#soup,
+#dessert {
   padding-top: 1rem;
-   
 }
 
 #menu-section-hero-image button {
@@ -459,9 +468,9 @@ font-size: 1.1rem;;
   z-index: 2;
 }
 
-.the-menu{
+.the-menu {
   min-height: min-content;
-  width:100%;
+  width: 100%;
 }
 
 /**-------------------------------------------Media Queries -------------------------------------------------------------**/
@@ -481,13 +490,11 @@ font-size: 1.1rem;;
     display: flex;
     flex-direction: row;
   }
- .contact{
+  .contact {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     align-items: center;
     margin: 0;
- }
-
+  }
 }
-

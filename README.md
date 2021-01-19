@@ -10,6 +10,8 @@ The webiste will be a platform to allow the business to advertise and to provide
 
 ## Table of Contents
 
+Live website
+
 ## UX
 
 ### Goals
@@ -74,8 +76,14 @@ In this section, you should go over the different parts of your project, and des
 
 ### Existing Features
 
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+On A Plate Catering website consists of 4 different pages that are responsive at all screen sizes. 
+Some of the features contained on the website are:
+- Request a quote feature - allows all users to contact the company to get a quote for catering a specific event
+-
+
+
+Feature 1 - allows users X to achieve Y, by having them fill out Z
+
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
