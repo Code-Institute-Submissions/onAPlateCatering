@@ -6,11 +6,12 @@ This first milestone project will result in the creation of a static responsive 
 On A Plate Catering is a fictional business that wants to provide excellent food service by delivery of delicious cooked, crowd pleasing dishes.
 
 On A Plate Catering's website is aimed at those looking for food service for events such as weddings, home events (birthday) and coorporate events such as a conference.
-The webiste will be a platform to allow the business to advertise and to provide sufficent information to attract new businesses. The aim of the website is to allow interested customers to understand the busiesses service and contact the business if they would like to use this service.
+The webiste will be a platform to allow the business to advertise and to provide sufficent information to attract new customers. The aim of the website is to allow interested customers to understand the busiesses service and contact the business if they would like to use this service.
 
 ## Table of Contents
 
-Live website
+[Live Website](https://jojo157.github.io/milestoneProject1/)
+![](assets/images/websiteImages.png)
 
 ## UX
 
@@ -72,33 +73,59 @@ Link to [Wireframe](/assets/wireframes/onAPlateCateringWireframes.pdf)
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 ### Existing Features
 
 On A Plate Catering website consists of 4 different pages that are responsive at all screen sizes. 
 Some of the features contained on the website are:
-- Request a quote feature - allows all users to contact the company to get a quote for catering a specific event
--
 
+- Navigation bar - assists users to easily move through the relevant pages with a layout that is intuitive, such as the hamburger icon naviagtion on smaller devices.
+- Call To Action Button - The request a quote button is distributed on pages that would encourage an interested party to initiate contact for a quote.
+- Request a quote feature - allows all users to contact the company to get a quote for catering a specific event. It helps the comapny by obtaining sufficent infomration to prepare a quote.
+- What we offer section Feature - This section gives a potetial customer a very short description of our catering offering.
+- Menu Section Feature - This section allows users to browse through a sample menu by courses. The colour layout of different courses makes it easy to distinguish them.
+- Testimonials Feature - This section allows users to read reviews from previous customers and help inform their decision.
+- Contact Section - This feature gives the contact details, such as address and contact number for On A Plate Catering with a google map of the address. 
+- Footer - This section allows users to find out more about the company through its social pages using well recognised icons.
 
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
-- Another feature idea
+- Instant messaging service - An IM service would help to obtain more customers by proactively making the first contact.
+- Payment Platform - The ability to secure booking with deposit post recieving a quote. 
+- A business lunch offering - This feature would provide informatino on packages that could be provided when the business expands into drop off luches to businesses without a canteen.
+
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- Frameworks and Libraries
+  - [Bootstrap5](https://getbootstrap.com/) was used for the navigation feature as it has a brillant responsive navbar component and button compents. 
+  - [Font Awesome](https://fontawesome.com/) was used for the navbar hamburger icon and the social icons used in the Footer. 
+  - [Google Fonts](https://fontawesome.com/)  was used to import the font used for the website.           
 
-- [JQuery](https://jquery.com)
-  - The project uses **JQuery** to simplify DOM manipulation.
+
+- Wireframes
+  - [Balsamiq](https://balsamiq.com/) was used to create a mock up of the website after exploring the strategy and scope planes of user exerperience for this project.
+
+- Version Control
+  - [Git](git-scm.com) was used as a version control system
+  - [Github](GitHubgithub.com) was used for repository hosting
+  - [Gitpod](gitpod.io) was used as the developer platform
+
+- Other
+  -  [Google Map Iframe](https://www.embedgooglemap.net/) was used to create an embed Google Map on the contact page
+  -  [Hatchful](https://hatchful.shopify.com/) was used to create the company logo
+  -  [Image Color Picker](https://imagecolorpicker.com/) was used to get the hex colour from an image for a background.
+  -  [Coolors](https://coolors.co/gradient-palette/) was used to create a gradient palette
+  -  [Pexels](www.pexels.com) was used to source free stock photos
+  -  [Pixabay](https://pixabay.com/) was used to source free stock photos
+  -  [W3C Markup]() was used to validate markup code
+  -  [W3C CSS]() was used to validate CSS code
+
+
+
+
+
 
 ## Testing
 
