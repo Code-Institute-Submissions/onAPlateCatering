@@ -115,13 +115,14 @@ Some of the features contained on the website are:
 - Other
   -  [Google Map Iframe](https://www.embedgooglemap.net/) was used to create an embed Google Map on the contact page
   -  [Hatchful](https://hatchful.shopify.com/) was used to create the company logo
-  -  [Image Color Picker](https://imagecolorpicker.com/) was used to get the hex colour from an image for a background.
+  -  [Image Color Picker](https://imagecolorpicker.com/) was used to get the hex colour from an image for a background
   -  [Coolors](https://coolors.co/gradient-palette/) was used to create a gradient palette
   -  [Pexels](www.pexels.com) was used to source free stock photos
   -  [Pixabay](https://pixabay.com/) was used to source free stock photos
   -  [W3C Markup]() was used to validate markup code
-  -  [W3C CSS]() was used to validate CSS code
-
+  -  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) was used to validate CSS code
+  -  [Nu Html Checker](https://validator.w3.org/nu) was used to validate HTML code
+  -  [Pic Resize](https://picresize.com/b6009dede49301) was used to resize images used on the website to improve the website performance
 
 
 
