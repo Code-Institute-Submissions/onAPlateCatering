@@ -495,10 +495,18 @@ height: 300px;
   .contact {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-evenly;
     align-items: center;
     margin: 0;
   }
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+     .contact{
+         display: -ms-flexbox; 
+         -ms-flex-order: 2; 
+         -ms-flex-pack: space-evenly;
+     }
+
+}

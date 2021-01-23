@@ -254,14 +254,15 @@ Differences discovered across browsers:
 - The contact page form placeholder text inside fields is not centered on safari as styled. On Chrome, Firefox, Edge the placeholder text is centered.
 - The property overscroll-behaviour is not compatible with safari or Internet explorer. This was expected as documented by [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior).
 - If autofill a form field it changes the colour of the cell, the cell colour varies depending on the browser.
-
+- Internet exploer does not support the property Justify-content: space evenly. This was checked on [Can I us](https://caniuse.com/?search=justify-content). All other browsers tested do.
 #### Different Operating Systems
 The above testing was conducted on operating systems:
 - Windows 10
 - MacOS Big Sur 11.1
 - iOS 14.3
 
-On the contact page , tested on Internet explorer with windows 8.1 [Lamda Test](https://app.lambdatest.com/) the address and map do not sit as intended. They were positioned beside each other with no spacing.
+On the contact page , tested on Internet explorer with windows 8.1 using [Lamda Test](https://app.lambdatest.com/) the address and map do not sit as intended. They were positioned beside each other with no spacing. On further check the justify-content: space-evenly property is not supported on this browser.
+I verified that this property is not supported on 
 
 ## Deployment
 
