@@ -474,7 +474,7 @@ height: 300px;
 
 /**-------------------------------------------Media Queries -------------------------------------------------------------**/
 
-@media (min-width: 500px) {
+@media (min-width: 770px) {
   .header-nav-list {
     flex-direction: row;
   }

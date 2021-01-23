@@ -123,7 +123,7 @@ Some of the features contained on the website are:
   -  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) was used to validate CSS code
   -  [W3C Html Checker](https://validator.w3.org/nu) was used to validate HTML code
   -  [Pic Resize](https://picresize.com/) was used to resize images used on the website to improve the website performance
-  -  [Ligthhouse](https://github.com/GoogleChrome/lighthouse) was used to audit my website and the reults of the audit were used to improve the website performance etc. 
+  -  [Ligthhouse](https://github.com/GoogleChrome/lighthouse) was used to audit my website and the results of the audit were used to improve the website performance etc. 
 
 
 
@@ -235,6 +235,8 @@ I tested the functionality of the site on a laptop first.
 - On the contact page, I checked that the embedded map zoom function works and that when you click view larger map, it opens in a new page on google maps. 
 - On the get a quote page, I checked each input to ensure I could enter data and for the drop down list that it works as expected. I pressed the submit button to check it acts as expected. When I build on my coding skills I would have a message appear when press submit. 
 
+The testing was then conducted on a mobile and the above steps were repeated including testing the toggle of the menu, toogle open and close worked on all pages as expected. 
+
 ### Validation Testing
 
 The get a quote form was tested for validation
@@ -242,13 +244,25 @@ The get a quote form was tested for validation
     - I then updated the code with required property for this field and retested all cells. The name, email, phone number and catering occasssion all act as expected and are required. The additional text field is not required.
 
 ### Compatibility Testing
-using devtools - looking at how site appears on different devices
 
-#### Different Devices
+#### Different devices
+Using Google Developer tools, I viewed the website on the following devices:
+- Galaxy S5
+- Pixel 2
+- Pixel 2 XL
+- iPhone 5/6/7/8 & Plus
+- iPhone X
+- iPad & iPad Pro
+- Surface duo 
+- Galaxy fold
+
+Based on the results I decided to alter media query in styles.css to only change from mobile design to laptop for screen width of greater than 770px as the surface Duo and iPad had sections that looked squashed.
 
 
 #### Different Browsers
-
+I tested the website on:
+- Google Chrome 
+- Safari 
 
 
 ## Deployment
