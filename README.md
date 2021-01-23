@@ -124,7 +124,7 @@ Some of the features contained on the website are:
   -  [W3C Html Checker](https://validator.w3.org/nu) was used to validate HTML code
   -  [Pic Resize](https://picresize.com/) was used to resize images used on the website to improve the website performance
   -  [Ligthhouse](https://github.com/GoogleChrome/lighthouse) was used to audit my website and the results of the audit were used to improve the website performance etc. 
-
+  -  [Lamba Test](https://app.lambdatest.com/) was used to test the website on windows operating system.
 
 
 
@@ -254,15 +254,20 @@ Differences discovered across browsers:
 - The contact page form placeholder text inside fields is not centered on safari as styled. On Chrome, Firefox, Edge the placeholder text is centered.
 - The property overscroll-behaviour is not compatible with safari or Internet explorer. This was expected as documented by [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior).
 - If autofill a form field it changes the colour of the cell, the cell colour varies depending on the browser.
-- Internet exploer does not support the property Justify-content: space evenly. This was checked on [Can I us](https://caniuse.com/?search=justify-content). All other browsers tested do.
+- Internet explorer does not support the property Justify-content: space evenly. This was checked on [Can I us](https://caniuse.com/?search=justify-content). All other browsers tested do.
+    - I fixed this using a media query for IE as per the suggestion on [Stack Overflow](https://stackoverflow.com/questions/28417056/how-to-target-only-ie-any-version-within-a-stylesheet) by setting flex grow as per suggestion on [Stack Overflow](https://stackoverflow.com/questions/47534216/how-to-make-css-justify-contentspace-evenly-fallback-to-space-between-on-safari). 
+
+The before and after images are shown below on Internet Explorer using [Lamba Test](https://app.lambdatest.com/) .
+![](assets/images/IEissue.png)
+
+
 #### Different Operating Systems
 The above testing was conducted on operating systems:
-- Windows 10
+- Windows 8.1
 - MacOS Big Sur 11.1
 - iOS 14.3
 
-On the contact page , tested on Internet explorer with windows 8.1 using [Lamda Test](https://app.lambdatest.com/) the address and map do not sit as intended. They were positioned beside each other with no spacing. On further check the justify-content: space-evenly property is not supported on this browser.
-I verified that this property is not supported on 
+
 
 ## Deployment
 
