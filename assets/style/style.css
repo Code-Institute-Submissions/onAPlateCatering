@@ -52,6 +52,7 @@ li {
   color: #000000;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  list-style: none;
 }
 
 .active {
@@ -452,7 +453,7 @@ height: 300px;
   flex-wrap: wrap;
   padding: 25px 10px;
   margin-bottom: 0rem;
-  list-style: none;
+  
 }
 
 #starter,
