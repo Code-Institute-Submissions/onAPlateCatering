@@ -130,24 +130,6 @@ Some of the features contained on the website are:
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-   1. Go to the "Contact Us" page
-   2. Try to submit the empty form and verify that an error message about the required fields appears
-   3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-   4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 ### Code Validation
 
 Html pages were validated with [W3C Html Checker](https://validator.w3.org/nu) . Several errors were discovered that have since been fixed. The errors were:
@@ -260,9 +242,21 @@ Based on the results I decided to alter media query in styles.css to only change
 
 
 #### Different Browsers
+
 I tested the website on:
 - Google Chrome 
 - Safari 
+- Firefox
+- Internet explorer
+- Edge
+
+
+Differences discovered across browsers:
+- The contact page form placeholder text inside fields is not centered on safari as styled. On Chrome and Firefox the placeholder text is centered.
+- The property overscroll-behaviour is not compatible with safari or Internet explorer. This was expected as documented by [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior).
+- If autofill a form field it changes the colour of the cell, the cell colour varies defending on the browser
+- on Firefox the menu items list decoration is shown although the style removes this.
+
 
 
 ## Deployment

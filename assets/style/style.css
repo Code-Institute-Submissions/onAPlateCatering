@@ -452,6 +452,7 @@ height: 300px;
   flex-wrap: wrap;
   padding: 25px 10px;
   margin-bottom: 0rem;
+  list-style: none;
 }
 
 #starter,
