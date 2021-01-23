@@ -390,6 +390,7 @@ select {
   display: block;
   text-align: center;
   width: 100%;
+  flex-direction: column;
 }
 .contact-heading {
   display: block;
@@ -493,6 +494,7 @@ height: 300px;
   }
   .contact {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     align-items: center;
