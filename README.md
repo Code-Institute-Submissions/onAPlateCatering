@@ -247,17 +247,21 @@ I tested the website on:
 - Google Chrome 
 - Safari 
 - Firefox
-- Internet explorer
-- Edge
+- Microsoft Edge
+- Internet explorer 
 
-
-Differences discovered across browsers:
-- The contact page form placeholder text inside fields is not centered on safari as styled. On Chrome and Firefox the placeholder text is centered.
+Differences discovered across browsers: 
+- The contact page form placeholder text inside fields is not centered on safari as styled. On Chrome, Firefox, Edge the placeholder text is centered.
 - The property overscroll-behaviour is not compatible with safari or Internet explorer. This was expected as documented by [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior).
-- If autofill a form field it changes the colour of the cell, the cell colour varies defending on the browser
-- on Firefox the menu items list decoration is shown although the style removes this.
+- If autofill a form field it changes the colour of the cell, the cell colour varies depending on the browser.
 
+#### Different Operating Systems
+The above testing was conducted on operating systems:
+- Windows 10
+- MacOS Big Sur 11.1
+- iOS 14.3
 
+On the contact page , tested on Internet explorer with windows 8.1 [Lamda Test](https://app.lambdatest.com/) the address and map do not sit as intended. They were positioned beside each other with no spacing.
 
 ## Deployment
 
@@ -275,7 +279,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for the menu was copied from [Old Barn Catering](https://oldbarncatering.com/)
 
 ### Media
 
@@ -283,4 +287,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from my wife who would like to set up a catering business in the future.
