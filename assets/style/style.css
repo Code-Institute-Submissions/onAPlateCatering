@@ -9,6 +9,9 @@
   padding: 0;
 }
 
+body {
+  overscroll-behavior: none;
+}
 
 
 a {
@@ -254,6 +257,11 @@ a.btn-success {
   display: block;
   text-align: center;
   padding-bottom: 2rem;
+}
+
+.menu-button{
+    text-align: center;
+    padding: 1rem;
 }
 
 .offer-image {

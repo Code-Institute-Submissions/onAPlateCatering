@@ -121,9 +121,9 @@ Some of the features contained on the website are:
   -  [Pixabay](https://pixabay.com/) was used to source free stock photos
   -  [W3C Markup]() was used to validate markup code
   -  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) was used to validate CSS code
-  -  [Nu Html Checker](https://validator.w3.org/nu) was used to validate HTML code
-  -  [Pic Resize](https://picresize.com/b6009dede49301) was used to resize images used on the website to improve the website performance
-
+  -  [W3C Html Checker](https://validator.w3.org/nu) was used to validate HTML code
+  -  [Pic Resize](https://picresize.com/) was used to resize images used on the website to improve the website performance
+  -  [Ligthhouse](https://github.com/GoogleChrome/lighthouse) was used to audit my website and the reults of the audit were used to improve the website performance etc. 
 
 
 
@@ -147,6 +147,109 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+### Code Validation
+
+Html pages were validated with [W3C Html Checker](https://validator.w3.org/nu) . Several errors were discovered that have since been fixed. The errors were:
+
+- Error 1 - Element button must not not appear as a descendant of the a element. 
+    - This error was fixed by re-reviewing the Bootstrap documentation and puttinh the button class on the a element to give the same output as before.
+- Error 2 - iframe element gave error that attributes are obsolute and to use css instead. These attributes were margin height, margin width and frameboard scrolling. 
+    - I removed these attributes from the html code and put styling for the iframe in style.css instead.
+- Error 3 - The value of the for attribute of the label elemet must be the ID of a non-hidden form control.
+    - I had forgot the ID attribute for this form element. I added the ID for the relevant form element. 
+
+Css pages were validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) . 2 errors were discovered.
+
+- Error 1 - property overscoll-behaviour doesn't exist.
+    - I looked online and verified that the property does exist according to [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior). 
+- Error 2 - value error: font-weigth 1000 is not a font weigth value.
+    - I had previously looked up the maximum for this value and misinterpreted the answer to mean it was 1000. I changed this to 900 the maximum. 
+
+After fixing the errors I re-ran all HTML and CSS files through the validators and only error present is the overscoll-behaviour error that I can ignore.
+
+### Performance Testing
+Performance was tested using Lighthouse, one of google web developers tools. 
+
+#### Home Page
+The first time I ran the audit on the home page, the performace was low as per image below.
+
+![](assets/images/homepage-performance-1.png)
+
+The results were not unexpected as I had noticed that the page took several seconds to load. The outputs of the audit highlighted that the website image files were too large and causing performance issues.
+I used [Pic Resize](https://picresize.com/) to reduce the image size without sacrificing quality. I then reran the report and was happy that the performance was improved greatly across all pages and I could see this when i reloaded the page.
+
+![](assets/images/homepage-performance-2.png)
+
+#### Menu Page
+
+![](assets/images/menu-performance.png)
+
+#### Quote Page
+
+![](assets/images/quote-performance.png)
+
+#### Contact Page
+
+![](assets/images/contact-performance.png)
+
+The performance was slower on this page as the map is an iframe and is know to be slower because there is an additional overhead for the browser. A future improvement would be to use Javascript to replace the iframe.
+
+According to Lighthouse using the a element with links to another page can pose security and performance risks. To improve my website I followed their advise and added the rel="noopener" property to all of the target="_blank" links. This improved the best practices score across all pages from 86 to 93.
+
+![](assets/images/best-practices.png)
+
+### User Stories Testing
+
+From the user stories listed earlier the aims On a Plate Catering intends to meet currently can be summarised as:
+- I would like to be able to view a menu of food 
+- I would like to be able to request a quote
+- I would like to see reviews from other customers who used service
+- I would like to contact the company for more queries
+- I want to increase my brand awareness and social following
+
+From Testing the aims are meet as follows:
+- I would like to be able to view a menu of food 
+    - The navigation bar clearly shows a user where the menu is 
+    - A call to action is shown on the home page with a button in the what we offer section leading the person to the menu
+- I would like to be able to request a quote
+    - A call to action button is present on the landing page and is the first thing a user sees 
+    - On the menu page again a call to action button is present guiding the user to the quote page
+    - The request a quote option is in the navigation bar
+- I would like to see reviews from other customers who used service
+    - Testimonials are present on the landing page and are styled to grab the readers attention
+- I would like to contact the company for more queries
+    - Contact section is shown in the navigation bar
+- I want to increase my brand awareness and social following
+    - The footer on all pages has links to the social pages as is standard practice for websites and the user would know to navigate here.
+
+### Functionality Testing
+
+I tested the functionality of the site on a laptop first. 
+- I clicked on each menu option in the navigation bar and the desired page loaded as expected. 
+- I confirmed that the current page is underlined in the navigation bar for each page.
+- I checked that the company logo on each page links back to the home page.
+- I clicked on the 2 buttons on the home page and the correct pages were navigated to.
+- I clicked the button on the menu page and the correct page loaded. 
+- I click on the social icons in the footer on each page and verified that the desired social website opens in a new page.
+- On the contact page, I checked that the embedded map zoom function works and that when you click view larger map, it opens in a new page on google maps. 
+- On the get a quote page, I checked each input to ensure I could enter data and for the drop down list that it works as expected. I pressed the submit button to check it acts as expected. When I build on my coding skills I would have a message appear when press submit. 
+
+### Validation Testing
+
+The get a quote form was tested for validation
+- I tested each input by leaving one blank at a time and checking the correct validation message is given. This worked for all cells except the drop down input. 
+    - I then updated the code with required property for this field and retested all cells. The name, email, phone number and catering occasssion all act as expected and are required. The additional text field is not required.
+
+### Compatibility Testing
+using devtools - looking at how site appears on different devices
+
+#### Different Devices
+
+
+#### Different Browsers
+
+
 
 ## Deployment
 
