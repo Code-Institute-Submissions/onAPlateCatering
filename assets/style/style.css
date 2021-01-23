@@ -505,5 +505,18 @@ height: 300px;
   }
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+    .contact {
+    display: flex;
+    }
+    .address {
+        flex: 1;
+        }
+     #location-map{
+      flex:1;
+  }
+}
+
 
 
