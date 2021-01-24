@@ -2,16 +2,60 @@
 
 ## Milestone Project 1 Overview
 
-This first milestone project will result in the creation of a static responsive front end website that will meet the business needs of On A Plate Catering and their target audiences needs.  
-On A Plate Catering is a fictional business that wants to provide excellent food service by delivery of delicious cooked, crowd pleasing dishes.
+This first milestone project will result in the creation of a static responsive front end website that will meet the business needs of On A Plate Catering and their target audiences needs. On A Plate Catering is a fictional business that wants to provide excellent food service by delivery of delicious cooked, crowd pleasing dishes.
 
 On A Plate Catering's website is aimed at those looking for food service for events such as weddings, home events (birthday) and coorporate events such as a conference.
 The webiste will be a platform to allow the business to advertise and to provide sufficent information to attract new customers. The aim of the website is to allow interested customers to understand the busiesses service and contact the business if they would like to use this service.
 
-## Table of Contents
+View [Live Website](https://jojo157.github.io/onAPlateCatering/)
 
-[Live Website](https://jojo157.github.io/milestoneProject1/)
-![](assets/images/websiteImages.png)
+![](assets/images/website-image.png) 
+image created using [Am I responsive]()
+
+## Table of Contents
+- [UX](#ux)
+    - [Goals](#goals)
+        - [User Goals](#user-goals)
+        - [Site Owner goals](#site-owner-goals)
+    - [User Stories](#user-stories)
+        - [An engaged couple](#an-engaged-couple)
+        - [A business owner](#a-business-owner)
+        - [An event organiser](#an-event-organiser)
+        - [On A Plate Catering owner](#on-a-plate-catering-owner)
+    - [Design](#design)
+        - [Wireframes](#wireframes)
+        - [Colour Scheme](#colour-scheme)
+        - [Typography](#typography)
+        - [Images](#images)
+    - [Features](#features)
+        - [Existing Features](#existing-features)
+        - [Features Left to Implement](#features-left-to-implement)
+    - [Technologies Used](#technologies-used)
+        - [Frameworks and Libraries](#frameworks-and-libraries)
+        - [Version Control](#version-control)
+        - [Other Programs](#other-programs)
+    - [Testing](#testing)
+        - [Code Validation](#code-validation)
+        - [Performance Testing](#performance-testing)
+            - [Home Page](#home-page)
+            - [Menu Page](#menu-page)
+            - [Quote Page](#quote-page)
+            - [Contact Page](#contact-page)
+        - [User Stories Testing](#user-stories-testing)
+        - [Functionality Testing](#functionality-testing)
+        - [Validation Testing](#validation-testing)
+        - [Compatibility Testing](#compatibility-testing)
+            - [Different devices](#different-devices)
+            - [Different Browsers](#different-browsers)
+            - [Different Operating Systems](#different-operating-systems)
+    - [Deployment](#deployment)
+    - [Credits](#credits)
+        - [Code](#code)
+        - [Content](#content)
+        - [Media](#media)
+        - [Acknowledgements](#acknowledgements)
+    
+
 
 ## UX
 
@@ -26,7 +70,7 @@ The webiste will be a platform to allow the business to advertise and to provide
 - To view images of food provided
 - To get a quote for catering an event
 
-#### Site owners goal
+#### Site Owner goals
 
 - To secure customers business for food service – general and corporate
 - To increase orders & attract new clients
@@ -65,14 +109,33 @@ The webiste will be a platform to allow the business to advertise and to provide
 - I want to speak to customers who view my website and may be interested in service. (potetial for IM facility in future)
 - I would like to offer ability to secure booking with deposit post recieving a quote.
 
+## Design 
+
 ### Wireframes
 
 Wireframes for this project were created using Balsamiq and can be viewed at below link.
 
 Link to [Wireframe](/assets/wireframes/onAPlateCateringWireframes.pdf)
 
-## Features
+### Colour Scheme
 
+The colour scheme for the website was created using [Coolors](https://coolors.co/gradient-palette/) . I choose to use a gradient palette of 5 colours going from a medium light shade of cyan to dark blue. The colour gradient palette is shown below with the hex colours.
+The medium light shade of cyan was used to create a conservative color palette, combining with darker shades of blue and green. I wanted to avoid using colours that are associated with fast food marketing such as red, orange and yellow shades. 
+
+![](assets/images/ColourPalette.png)
+
+### Typography
+
+I wanted the text to appear elegant without sacrificing readability. I browsed google fonts and choose "Cormorant Garamond". 
+This font is used across the website. "Sans-serif" was used as a replacement font if "Cormorant Garamond "font was not available.
+
+### Images
+
+Images used on this website are aimed at the target audience to engage with us. Using images that look elegant while also linking up with On A Plate Catering's offering. 
+I beleive the website achieves this without overloading images that could affect performance.
+
+
+## Features
 
 ### Existing Features
 
@@ -80,8 +143,8 @@ On A Plate Catering website consists of 4 different pages that are responsive at
 Some of the features contained on the website are:
 
 - Navigation bar - assists users to easily move through the relevant pages with a layout that is intuitive, such as the hamburger icon naviagtion on smaller devices.
-- Call To Action Button - The request a quote button is distributed on pages that would encourage an interested party to initiate contact for a quote.
-- Request a quote feature - allows all users to contact the company to get a quote for catering a specific event. It helps the comapny by obtaining sufficent infomration to prepare a quote.
+- Call To Action Button - The request a quote button is distributed on pages that would encourage an interested party to initiate contact for a quote. Additionally a view menu button is presented in the what we offer section to entice customers.
+- Request a quote feature - allows all users to contact the company to get a quote for catering a specific event. It helps the company by obtaining sufficent infomration to prepare a quote.
 - What we offer section Feature - This section gives a potetial customer a very short description of our catering offering.
 - Menu Section Feature - This section allows users to browse through a sample menu by courses. The colour layout of different courses makes it easy to distinguish them.
 - Testimonials Feature - This section allows users to read reviews from previous customers and help inform their decision.
@@ -93,40 +156,38 @@ Some of the features contained on the website are:
 
 - Instant messaging service - An IM service would help to obtain more customers by proactively making the first contact.
 - Payment Platform - The ability to secure booking with deposit post recieving a quote. 
-- A business lunch offering - This feature would provide informatino on packages that could be provided when the business expands into drop off luches to businesses without a canteen.
+- A business lunch offering - This feature would provide information on packages that could be provided when the business expands into drop off lunches to businesses without a canteen.
 
 
 ## Technologies Used
 
-- Frameworks and Libraries
-  - [Bootstrap5](https://getbootstrap.com/) was used for the navigation feature as it has a brillant responsive navbar component and button compents. 
-  - [Font Awesome](https://fontawesome.com/) was used for the navbar hamburger icon and the social icons used in the Footer. 
-  - [Google Fonts](https://fontawesome.com/)  was used to import the font used for the website.           
+### Frameworks and Libraries
+- [Bootstrap5](https://getbootstrap.com/) was used for the navigation feature as it has a brillant responsive navbar component and button compents. 
+- [Font Awesome](https://fontawesome.com/) was used for the navbar hamburger icon and the social icons used in the Footer. 
+- [Google Fonts](https://fontawesome.com/)  was used to import the font used for the website.           
 
+### Version Control
+- [Git](git-scm.com) was used as a version control system
+- [Github](GitHubgithub.com) was used for repository hosting
+- [Gitpod](gitpod.io) was used as the developer platform
 
-- Wireframes
-  - [Balsamiq](https://balsamiq.com/) was used to create a mock up of the website after exploring the strategy and scope planes of user exerperience for this project.
-
-- Version Control
-  - [Git](git-scm.com) was used as a version control system
-  - [Github](GitHubgithub.com) was used for repository hosting
-  - [Gitpod](gitpod.io) was used as the developer platform
-
-- Other
-  -  [Google Map Iframe](https://www.embedgooglemap.net/) was used to create an embed Google Map on the contact page
-  -  [Hatchful](https://hatchful.shopify.com/) was used to create the company logo
-  -  [Image Color Picker](https://imagecolorpicker.com/) was used to get the hex colour from an image for a background
-  -  [Coolors](https://coolors.co/gradient-palette/) was used to create a gradient palette
-  -  [Pexels](www.pexels.com) was used to source free stock photos
-  -  [Pixabay](https://pixabay.com/) was used to source free stock photos
-  -  [W3C Markup]() was used to validate markup code
-  -  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) was used to validate CSS code
-  -  [W3C Html Checker](https://validator.w3.org/nu) was used to validate HTML code
-  -  [Pic Resize](https://picresize.com/) was used to resize images used on the website to improve the website performance
-  -  [Ligthhouse](https://github.com/GoogleChrome/lighthouse) was used to audit my website and the results of the audit were used to improve the website performance etc. 
-  -  [Lamba Test](https://app.lambdatest.com/) was used to test the website on windows operating system.
-
-
+### Other Programs
+-  [Balsamiq](https://balsamiq.com/) was used to create a mock up of the website after exploring the strategy and scope planes of user exerperience for this project.
+-  [Google Map Iframe](https://www.embedgooglemap.net/) was used to create an embed Google Map on the contact page
+-  [Hatchful](https://hatchful.shopify.com/) was used to create the company logo
+-  [Image Color Picker](https://imagecolorpicker.com/) was used to get the hex colour from an image for a background
+-  [Coolors](https://coolors.co/gradient-palette/) was used to create a gradient palette
+-  [Pexels](www.pexels.com) was used to source free stock photos
+-  [Unsplash](https://unsplash.com/) was used to source free stock photos
+-  [Pixabay](https://pixabay.com/) was used to source free stock photos
+-  [W3C Markup]() was used to validate markup code
+-  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) was used to validate CSS code
+-  [W3C Html Checker](https://validator.w3.org/nu) was used to validate HTML code
+-  [Pic Resize](https://picresize.com/) was used to resize images used on the website to improve the website performance
+-  [Ligthhouse](https://github.com/GoogleChrome/lighthouse) was used to audit my website and the results of the audit were used to improve the website performance etc. 
+-  [Lamba Test](https://app.lambdatest.com/) was used to test the website on windows operating system.
+-  [Am I responsive](http://ami.responsivedesign.is/) was used to view the website across several devices at once. 
+-  [W3C Spell checker](https://www.w3.org/2002/01/spellchecker) was used to check the spelling of the website. 
 
 ## Testing
 
@@ -268,29 +329,49 @@ The above testing was conducted on operating systems:
 - iOS 14.3
 
 
-
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This milestone project was deployed to GitHub Pages using the below steps:
+- Log into GitHub and locate the [On A Plate Catering](https://github.com/jojo157/onAPlateCatering) repository.
+- At the top of this page navigate to "Settings" on the menu.
+- Scroll down until you reach the "GitHub Pages" Section on the settings page.
+- Under "Source", click the dropdown called "None" and select "main" branch.
+- The page will automatically reload.
+- Scroll to the "GitHub Pages" Section and you will see the site published address displayed.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+To copy the repository so that you have access to all the files and any new changes will no affect the orignal repositary follow the below steps:
+- Log into GitHub and locate the [On A Plate Catering](https://github.com/jojo157/onAPlateCatering) repository.
+- On the top far right click on the fork button.
+- This will add a copy of On A Plate repository to your respository.
 
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+You can add the [On A Plate Catering](https://github.com/jojo157/onAPlateCatering) repository to your local machine using the below steps:  
+- Log into GitHub and locate the [On A Plate Catering](https://github.com/jojo157/onAPlateCatering) repository.
+- Click the "Code" button, click HTTPS and copy the link shown.
+- Open terminal and change the working directory to where you want the clone repositary to be.
+- In the terminal, type git clone, and then paste the URL you copied earlier.
+- Press enter and your local clone is now created.
 
 ## Credits
+
+
+### Code
+
+- [Bootstrap5](https://getbootstrap.com/) code was used and altereded to create the responsive navigation bar and the bootstrap button classes were used.
 
 ### Content
 
 - The text for the menu was copied from [Old Barn Catering](https://oldbarncatering.com/)
+- The rest of the content was written by myself.
 
 ### Media
 
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from several sites where free stock photos are available [Pexels](https://www.pexels.com/) , [Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/) .
+- The cake photo on the menu page was obtained from [Great British Chefs](https://www.greatbritishchefs.com/
+https://gbc-cdn-public-media.azureedge.net/)
 
 ### Acknowledgements
 
 - I received inspiration for this project from my wife who would like to set up a catering business in the future.
+- I would like to thank my mentor  Sandeep Aggarwal for his feedback and help.
+- I would like to thank Code Institue's Tutor support for their help.
+- I would like to thank my fellow students for their help on slack. 
