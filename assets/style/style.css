@@ -64,45 +64,45 @@ li {
 
 /** ------------------------------------------Colors --------------------------------------------------------------- **/
 .navbar-custom {
-  background-color: #6ff7e8;
+  background-color: rgba(111, 274, 232,1); 
 }
 .header-image {
-  background-color: #6ff7e8;
+  background-color:rgba(111,274,232,1); 
 }
 .header-nav-list {
-  background-color: #6ff7e8;
+  background-color:rgba(111,274,232,1); 
 }
 .quote,
 .contact-details-section {
-  background-color: #5bd9d6;
+  background-color: rgba(91,217,214, 0.8);
 }
 .what-we-offer-section,
 .the-menu {
-  background-color: #47bbc5;
+  background-color: rgba(71,187,197,0.6);
 }
-.testimonial-section,
-.testimonial,
-body {
-  background-color: #339cb3;
+.testimonial-section
+{
+  background-color: rgba(51,156,179,0.6);
 }
+
 footer {
-  background-color: #1f7ea1;
+  background-color: rgba(31, 126, 161, 1);
 }
 
 .starters-color {
-  background-color: #2f96af;
+  background-color: rgba(47,150,175,0.6);
 }
 
 .soups-color {
-  background-color: #3faebd;
+  background-color: rgba(63,174,189,0.6);
 }
 
 .mains-color {
-  background-color: #2f96af;
+  background-color: rgba(47,150,175,0.6);
 }
 
 .dessert-color {
-  background-color: #3faebd;
+  background-color: rgba(63,174,189,0.6);
 }
 
 /**------------------Navigation bar - shared across all pages ------------------------------------------ **/
@@ -298,11 +298,17 @@ a.btn-success {
   flex-direction: column;
 }
 
+
 .testimonial {
   width: 100%;
   display: block;
   text-align: center;
-  padding-bottom: 2px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.testimonial p{
+    font-weight: 600;
 }
 
 .testimonial-image {
@@ -502,6 +508,15 @@ iframe {
     -ms-flex-align: center;
     margin: 0;
   }
+
+  .footer-list{
+      justify-content: center;
+  }
+
+  .footer-list-item {
+      padding-right: 2rem;
+  }
+
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
