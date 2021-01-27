@@ -11,6 +11,12 @@
 
 body {
   overscroll-behavior: none;
+  
+}
+
+section{
+padding-left: 4rem;
+padding-right:4rem;
 }
 
 a {
