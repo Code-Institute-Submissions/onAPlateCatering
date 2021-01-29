@@ -14,11 +14,6 @@ body {
   
 }
 
-section{
-padding-left: 4rem;
-padding-right:4rem;
-}
-
 a {
   text-decoration: none;
 }
@@ -27,7 +22,7 @@ a {
   text-transform: uppercase;
 }
 
-.font1 {
+.fontCormorantGaramond {
   font-family: "Cormorant Garamond", sans-serif;
 }
 
@@ -422,6 +417,7 @@ select {
   padding-top: 2rem;
   display: inline-block;
   object-fit: scale-down;
+  padding-left: 1rem;
 }
 
 iframe {
@@ -524,6 +520,11 @@ iframe {
   .footer-list-item {
       padding-right: 2rem;
   }
+
+  section{
+    padding-left: 4rem;
+    padding-right:4rem;
+}
 
 }
 
