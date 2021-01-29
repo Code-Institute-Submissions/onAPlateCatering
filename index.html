@@ -1,211 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>On a Plate</title>
     <link rel="stylesheet" href="assets/style/style.css" />
     <!-- FontAwesome CDN-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css "
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css " />
     <!-- Bootstrap framework CDN-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+</head>
+
+<body>
     <header class="header">
-      <!--- Credit to Bootstrap for Navbar - customisation has been made using bootstrap classes -->
-      <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
-        <a class="navbar-brand" href="index.html"
-          ><img
-            class="header-image"
-            src="assets/images/logo.png"
-            alt="logo image"
-        /></a>
+        <!--- Credit to Bootstrap for Navbar - customisation has been made using bootstrap classes -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
+            <a class="navbar-brand" href="index.html"><img class="header-image" src="assets/images/logo.png"
+                    alt="logo image" /></a>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarToggler"
-          aria-controls="navbarToggler"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarToggler">
-          <ul class="navbar-nav nav-fill w-100">
-            <li class="nav-item active uppercase">
-              <a class="nav-link" href="index.html"
-                >Home<span class="sr-only">(current)</span></a
-              >
-            </li>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item active uppercase">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
 
-            <li class="nav-item uppercase">
-              <a class="nav-link" href="menu.html">Menu</a>
-            </li>
-            <li class="nav-item uppercase">
-              <a class="nav-link" href="quote.html">Get a Quote</a>
-            </li>
-            <li class="nav-item uppercase">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+                    <li class="nav-item uppercase">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item uppercase">
+                        <a class="nav-link" href="quote.html">Get a Quote</a>
+                    </li>
+                    <li class="nav-item uppercase">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <section class="home-hero-image-section">
-      <h1 class="uppercase fontCormorantGaramond bold">Catering for your needs.</h1>
-      <h2 class="uppercase fontCormorantGaramond bold">We Bring Tasty food to you.</h2>
-      <div class="align-center">
-        <a href="quote.html" class="btn btn-success uppercase" role="button"
-          >Get a quote</a
-        >
-      </div>
+        <h1 class="uppercase fontCormorantGaramond bold">Catering for your needs.</h1>
+        <h2 class="uppercase fontCormorantGaramond bold">We Bring Tasty food to you.</h2>
+        <div class="align-center">
+            <a href="quote.html" class="btn btn-success uppercase" role="button">Get a quote</a>
+        </div>
     </section>
 
     <section class="what-we-offer-section">
-      <h2
-        class="uppercase section-heading fontCormorantGaramond bold"
-        id="what-we-offer-heading"
-      >
-        What we offer
-      </h2>
-      <div class="menu-button">
-        <a href="menu.html" class="btn btn-success uppercase" role="button"
-          >View sample menu</a
-        >
-      </div>
-      <div class="layout-flex">
-        <div class="what-we-offer-subsection">
-          <h3>Wedding Catering</h3>
-          <p class="text-size offer-text">
-            The finest food provided for your special day
-          </p>
-          <img
-            class="offer-image"
-            src="assets/images/food.jpg"
-            alt="table of food"
-          />
+        <h2 class="uppercase section-heading fontCormorantGaramond bold" id="what-we-offer-heading">
+            What we offer
+        </h2>
+        <div class="menu-button">
+            <a href="menu.html" class="btn btn-success uppercase" role="button">View sample menu</a>
         </div>
-        <div class="what-we-offer-subsection">
-          <h3>Corporate Catering</h3>
-          <p class="text-size offer-text">
-            Appetizing food to fuel your business
-          </p>
-          <img
-            class="offer-image"
-            src="assets/images/soup.jpg"
-            alt="picture of food in office"
-          />
-        </div>
+        <div class="layout-flex">
+            <div class="what-we-offer-subsection">
+                <h3>Wedding Catering</h3>
+                <p class="text-size offer-text">
+                    The finest food provided for your special day
+                </p>
+                <img class="offer-image" src="assets/images/food.jpg" alt="table of food" />
+            </div>
+            <div class="what-we-offer-subsection">
+                <h3>Corporate Catering</h3>
+                <p class="text-size offer-text">
+                    Appetizing food to fuel your business
+                </p>
+                <img class="offer-image" src="assets/images/soup.jpg" alt="picture of food in office" />
+            </div>
 
-        <div class="what-we-offer-subsection">
-          <h3>Home Catering</h3>
-          <p class="text-size offer-text">
-            Enjoy your celebrations without the hard work
-          </p>
-          <img
-            class="offer-image"
-            src="assets/images/home-catering.jpg"
-            alt="table of food"
-          />
+            <div class="what-we-offer-subsection">
+                <h3>Home Catering</h3>
+                <p class="text-size offer-text">
+                    Enjoy your celebrations without the hard work
+                </p>
+                <img class="offer-image" src="assets/images/home-catering.jpg" alt="table of food" />
+            </div>
         </div>
-      </div>
     </section>
 
     <section class="testimonial-section">
-      <h2
-        class="uppercase section-heading fontCormorantGaramond bold align-center"
-        id="testimonial-heading"
-      >
-        Testimonials
-      </h2>
-      <div class="testimonials">
-        <div class="testimonial">
-          <p class="italic fontRoboto align-center text-size">
-            We were treated like royalty. On A Plate Catering exceeds
-            expectations! <br />-Juan B.
-          </p>
-          <img
-            class="testimonial-image"
-            id="wedding-image"
-            src="assets/images/couple.png"
-            alt="picture of wedding couple"
-          />
-        </div>
+        <h2 class="uppercase section-heading fontCormorantGaramond bold align-center" id="testimonial-heading">
+            Testimonials
+        </h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p class="italic fontRoboto align-center text-size">
+                    We were treated like royalty. On A Plate Catering exceeds
+                    expectations! <br />-Juan B.
+                </p>
+                <img class="testimonial-image" id="wedding-image" src="assets/images/couple.png"
+                    alt="picture of wedding couple" />
+            </div>
 
-        <div class="testimonial">
-          <p class="italic fontRoboto align-center text-size">
-            On A Plate Catering saves me time and effort. It is exactly what our
-            business has been lacking <br />-Marda T.
-          </p>
-          <img
-            class="testimonial-image"
-            id="woman-image"
-            src="assets/images/woman.png"
-            alt="picture of woman"
-          />
+            <div class="testimonial">
+                <p class="italic fontRoboto align-center text-size">
+                    On A Plate Catering saves me time and effort. It is exactly what our
+                    business has been lacking <br />-Marda T.
+                </p>
+                <img class="testimonial-image" id="woman-image" src="assets/images/woman.png" alt="picture of woman" />
+            </div>
+            <div class="testimonial">
+                <p class="italic fontRoboto align-center text-size">
+                    I would like to say thank you to your staff. Wow, what a great
+                    service, I love it! <br />-Mary C.
+                </p>
+                <img class="testimonial-image" src="assets/images/champagne.png"
+                    alt="picture of 2 glasses of champagne" />
+            </div>
         </div>
-        <div class="testimonial">
-          <p class="italic fontRoboto align-center text-size">
-            I would like to say thank you to your staff. Wow, what a great
-            service, I love it! <br />-Mary C.
-          </p>
-          <img
-            class="testimonial-image"
-            src="assets/images/champagne.png"
-            alt="picture of 2 glasses of champagne"
-          />
-        </div>
-      </div>
     </section>
 
     <footer>
-      <ul class="footer-list">
-        <li class="footer-list-item">
-          <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-        </li>
-        <li class="footer-list-item">
-          <a href="https://twitter.com/?lang=en" target="_blank" rel="noopener"
-            ><i class="fab fa-twitter"></i
-          ></a>
-        </li>
-        <li class="footer-list-item">
-          <a href="https://ie.linkedin.com/" target="_blank" rel="noopener"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-        </li>
-      </ul>
-      <p class="copyright-text">© 2020 Joanne Carrig</p>
+        <ul class="footer-list">
+            <li class="footer-list-item">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="footer-list-item">
+                <a href="https://twitter.com/?lang=en" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="footer-list-item">
+                <a href="https://ie.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+        </ul>
+        <p class="copyright-text">© 2020 Joanne Carrig</p>
     </footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
 
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

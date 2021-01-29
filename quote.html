@@ -1,180 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>On a Plate</title>
     <link rel="stylesheet" href="assets/style/style.css" />
     <!-- Bootstrap framework CDN-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
     <!-- FontAwesome CDN-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css "
-    />
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css " />
+</head>
+
+<body>
     <header class="header">
-      <!--- Credit to Bootstrap for Navbar - customisation has been made using bootstrap classes -->
-      <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
-        <a class="navbar-brand" href="index.html"
-          ><img
-            class="header-image"
-            src="assets/images/logo.png"
-            alt="logo image"
-        /></a>
+        <!--- Credit to Bootstrap for Navbar - customisation has been made using bootstrap classes -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
+            <a class="navbar-brand" href="index.html"><img class="header-image" src="assets/images/logo.png"
+                    alt="logo image" /></a>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarToggler"
-          aria-controls="navbarToggler"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarToggler">
-          <ul class="navbar-nav nav-fill w-100">
-            <li class="nav-item uppercase">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item uppercase">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
 
-            <li class="nav-item uppercase">
-              <a class="nav-link" href="menu.html">Menu</a>
-            </li>
-            <li class="nav-item active uppercase">
-              <a class="nav-link" href="quote.html"
-                >Get a Quote<span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item uppercase">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+                    <li class="nav-item uppercase">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item active uppercase">
+                        <a class="nav-link" href="quote.html">Get a Quote<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item uppercase">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <section class="quote">
-      <h2 class="uppercase fontCormorantGaramond bold">Request a Quote</h2>
-      <form class="form">
-        <label class="uppercase fontRoboto text-size-quote" for="name">Name:</label>
-        <br />
-        <input
-          placeholder="Enter your name here"
-          class="form-element"
-          type="text"
-          id="name"
-          name="name"
-          required
-        />
-        <br />
+        <h2 class="uppercase fontCormorantGaramond bold">Request a Quote</h2>
+        <form class="form">
+            <label class="uppercase fontRoboto text-size-quote" for="name">Name:</label>
+            <br />
+            <input placeholder="Enter your name here" class="form-element" type="text" id="name" name="name" required />
+            <br />
 
-        <label class="uppercase fontRoboto text-size-quote" for="email"
-          >Email:</label
-        >
-        <br />
-        <input
-          placeholder="Enter your email address here"
-          class="form-element"
-          type="email"
-          id="email"
-          name="email"
-          required
-        />
-        <br />
+            <label class="uppercase fontRoboto text-size-quote" for="email">Email:</label>
+            <br />
+            <input placeholder="Enter your email address here" class="form-element" type="email" id="email" name="email"
+                required />
+            <br />
 
-        <label class="uppercase fontRoboto text-size-quote" for="phone"
-          >Phone Number:</label
-        >
-        <br />
-        <input
-          placeholder="Enter you mobile number here"
-          class="form-element"
-          type="tel"
-          id="phone"
-          name="phone"
-          required
-        />
-        <br />
+            <label class="uppercase fontRoboto text-size-quote" for="phone">Phone Number:</label>
+            <br />
+            <input placeholder="Enter you mobile number here" class="form-element" type="tel" id="phone" name="phone"
+                required />
+            <br />
 
-        <label class="uppercase fontRoboto text-size-quote" for="catering"
-          >Choose a catering occasion:</label
-        >
-        <br />
-        <select class="form-element" id="catering" name="catering" required>
-          <option value="" disabled selected>
-            Select your catering option from the drop down list
-          </option>
-          <option class="fontCormorantGaramond" value="wedding">Wedding</option>
-          <option class="fontCormorantGaramond" value="corporate">Corporate</option>
-          <option class="fontCormorantGaramond" value="home">Home</option>
-        </select>
-        <br />
+            <label class="uppercase fontRoboto text-size-quote" for="catering">Choose a catering occasion:</label>
+            <br />
+            <select class="form-element" id="catering" name="catering" required>
+                <option value="" disabled selected>
+                    Select your catering option from the drop down list
+                </option>
+                <option class="fontCormorantGaramond" value="wedding">Wedding</option>
+                <option class="fontCormorantGaramond" value="corporate">Corporate</option>
+                <option class="fontCormorantGaramond" value="home">Home</option>
+            </select>
+            <br />
 
-        <label class="uppercase fontRoboto text-size-quote" for="special-requests"
-          >Any Special Requests:</label
-        >
-        <br />
-        <textarea
-          placeholder="Type your message here"
-          id="special-requests"
-          class="form-element"
-          name="special-requests"
-          rows="6"
-        ></textarea>
-        <br />
+            <label class="uppercase fontRoboto text-size-quote" for="special-requests">Any Special Requests:</label>
+            <br />
+            <textarea placeholder="Type your message here" id="special-requests" class="form-element"
+                name="special-requests" rows="6"></textarea>
+            <br />
 
-        <input
-          class="fontRoboto quote-button text-size"
-          type="submit"
-          value="SUBMIT"
-        />
-      </form>
+            <input class="fontRoboto quote-button text-size" type="submit" value="SUBMIT" />
+        </form>
     </section>
 
     <footer>
-      <ul class="footer-list">
-        <li class="footer-list-item">
-          <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-        </li>
-        <li class="footer-list-item">
-          <a href="https://twitter.com/?lang=en" target="_blank" rel="noopener"
-            ><i class="fab fa-twitter"></i
-          ></a>
-        </li>
-        <li class="footer-list-item">
-          <a href="https://ie.linkedin.com/" target="_blank" rel="noopener"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-        </li>
-      </ul>
-      <p class="copyright-text">© 2020 Joanne Carrig</p>
+        <ul class="footer-list">
+            <li class="footer-list-item">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="footer-list-item">
+                <a href="https://twitter.com/?lang=en" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="footer-list-item">
+                <a href="https://ie.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+        </ul>
+        <p class="copyright-text">© 2020 Joanne Carrig</p>
     </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
