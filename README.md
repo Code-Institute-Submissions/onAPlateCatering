@@ -4,8 +4,9 @@
 
 This first milestone project will result in the creation of a static responsive front end website that will meet the business needs of On A Plate Catering and their target audience's needs. On A Plate Catering is a fictional business that wants to provide excellent food service by delivery of delicious cooked, crowd pleasing dishes.
 
-On A Plate Catering's website is aimed at those looking for food service for events such as weddings, home events (birthday) and corporate events such as a conference.
-The website will be a platform to allow the business to advertise and to provide sufficient information to attract new customers. The aim of the website is to allow interested customers to understand the business's service and contact the business if they would like to use this service.
+On A Plate Catering's website is aimed at those looking to obtain high quality food service for events such as weddings, home events (birthdays, anniversaries, etc.) and corporate (conferences or smaller meetings). 
+
+The website will be a platform to allow the business to advertise and provide sufficient information to attract new customers. The aim of the website is to allow interested customers to understand the business's service and contact the business if they would like to use this service.
 
 View [Live Website](https://jojo157.github.io/onAPlateCatering/)
 
@@ -59,7 +60,7 @@ image created using [Am I responsive]()
 ## UX
 
 This website was created by following The Five Planes of User Experience. The planes are strategy, scope, structure, skeleton and surface. I first put myself in the shoes of the business owner and potential customer and listed all the needs I could think of, no matter how abstract. I then wrote down all the features and functions that would be necessary to meet the needs and reduced this list based on what was possible given the time constraint and level of coding knowledge.
-With a reduced list of features expected to meet the user's needs, I then worked out what elements would be needed to create these functions. With a more concrete idea in mind, I explored how a user would navigate to successfully meet their needs. With several prototypes drawn by hand, I decided to create a wireframe using Balsamiq to look at the outline on different devices. With this template, I started coding for mobile users and then altered the code for other devices to improve usability.
+With a reduced list of features expected to meet the user's needs, I then worked out what elements would be required to create these functions. With a more concrete idea in mind, I explored how a user would navigate to successfully meet their needs. With several prototypes drawn by hand, I decided to create a wireframe using Balsamiq to look at the outline on different devices. With this template, I started coding for mobile users and then altered the code for other devices to improve usability.
 
 ### Goals
 
@@ -74,7 +75,7 @@ With a reduced list of features expected to meet the user's needs, I then worked
 
 #### Site Owner goals
 
-- To secure customers business for food service – general and corporate.
+- To secure customers and business for food service – general and corporate.
 - To increase orders & attract new clients.
 - To spread awareness of brand.
 - To increase social following.
@@ -84,7 +85,7 @@ With a reduced list of features expected to meet the user's needs, I then worked
 #### An engaged couple
 
 - I would like to be able to view a menu of food to see if I like the offering for my wedding.
-- I would like to be able to request a quote for a set number of people and know what's included in quote.
+- I would like to be able to request a quote.
 - I would like to see reviews from other customers who used service.
 
 #### A business owner
@@ -92,7 +93,7 @@ With a reduced list of features expected to meet the user's needs, I then worked
 - I would like to be able to view a menu of food to see if I like the offering for a business event.
 - I would like to be able to request a quote for a set number of people.
 - I would like to see reviews from other customers who used service.
-- I would like to know if the catering service can provide a regular service such as canteen food (soups, sandwiches, pastries) or just set number events.
+- I would like to know if the catering service can provide a regular service such as canteen food (soups, sandwiches, pastries) or just cater for specific events.
 
 #### An event organiser
 
@@ -100,13 +101,13 @@ With a reduced list of features expected to meet the user's needs, I then worked
 - I would like to contact to see if a special dish can be made for my event, (i.e. can you customize the menu).
 - I would like to be able to request a quote.
 - I would like to see reviews from other customers who used service.
-- I would like to see a gallery of offerings such as cakes etc and again if customize.
+- I would like to see a gallery of offerings such as cakes etc and again if  this can be customized.
 
 #### On A Plate Catering owner
 
-- I want to attract my target audience and ask them sufficient information to offer a quote.
-- I want to obtain new corporate clients for repeat event catering.
-- I want to see if there is an appetite for lunch offerings for corporate clients.
+- I want to attract my target audience and obtain sufficient information from them to offer a quote.
+- I want to gather new corporate clients for repeat event catering.
+- I want to see if there is lunch offerings appetite for corporate clients.
 - I want to increase my brand awareness and social following.
 - I want to speak to customers who view my website and may be interested in service.
 - I would like to offer ability to secure booking with deposit post receiving a quote.
@@ -128,8 +129,8 @@ The medium light shade of cyan was used to create a conservative colour palette,
 
 ### Typography
 
-I wanted the text to appear elegant without sacrificing readability. I browsed google fonts and choose "Cormorant Garamond".
-This font is used across the website. "Sans-serif" was used as a replacement font if "Cormorant Garamond" was not available.
+I wanted the text to appear elegant without sacrificing readability. I browsed google fonts and selected "Cormorant Garamond" and "Roboto".
+These fonts are used across the website. "Sans-serif" was used as a replacement font if "Cormorant Garamond" or "Roboto" was not available.
 
 ### Images
 
@@ -147,9 +148,9 @@ Some of the features contained on the website are:
 - Navigation bar
   - Assists users to easily move through the relevant pages with a layout that is intuitive, such as the hamburger icon navigation on smaller devices.
 - Call To Action Button
-  - The request a quote button is distributed on pages that would encourage an interested party to initiate contact for a quote. Additionally a view menu button is presented in the what we offer section to entice customers.
+  - The request a quote button is distributed on pages that would encourage an interested party to initiate contact for a quote. Additionally a view menu button is presented in the 'what we offer' section to entice customers.
 - Request a quote feature
-  - Allows all users to contact the company to get a quote for catering a specific event. It helps the company by obtaining sufficient information to prepare a quote.
+  - Allows all users to contact the company to get a quote for specific catering event. It helps the company obtaining sufficient information to prepare a quote.
 - What we offer section Feature
   - This section gives a potential customer a very short description of our catering offering.
 - Menu Section Feature
@@ -157,7 +158,7 @@ Some of the features contained on the website are:
 - Testimonials Feature
   - This section allows users to read reviews from previous customers and help inform their decision.
 - Contact Section
-  - This feature gives the contact details, such as address and contact number for On A Plate Catering with a google map of the address.
+  - This feature gives the contact details, such as address and contact number for On A Plate Catering with a google map  view of the address. Additionally, when a user clicks on the email address, the default mail provider will open with the fields To and Subject pre-filled.
 - Footer
   - This section allows users to find out more about the company through its social pages using well recognised icons.
 
@@ -186,7 +187,7 @@ Some of the features contained on the website are:
 
 ### Other Programs
 
-- [Balsamiq](https://balsamiq.com/) was used to create a mock up of the website after exploring the strategy and scope planes of user experience for this project.
+- [Balsamiq](https://balsamiq.com/) was used to create a mock-up of the website after exploring the strategy and scope planes of user experience for this project.
 - [Google Map Iframe](https://www.embedgooglemap.net/) was used to create an embed Google Map on the contact page.
 - [Hatchful](https://hatchful.shopify.com/) was used to create the company logo.
 - [Image Color Picker](https://imagecolorpicker.com/) was used to get the hex colour from an image for a background.
@@ -194,10 +195,10 @@ Some of the features contained on the website are:
 - [Pexels](www.pexels.com) was used to source free stock photos.
 - [Unsplash](https://unsplash.com/) was used to source free stock photos.
 - [Pixabay](https://pixabay.com/) was used to source free stock photos.
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) was used to validate CSS code.
-- [W3C Html Checker](https://validator.w3.org/nu) was used to validate HTML code.
-- [Pic Resize](https://picresize.com/) was used to resize images used on the website to improve the website performance.
-- [Ligthhouse](https://GitHub.com/GoogleChrome/lighthouse) was used to audit my website and the results of the audit were used to improve the website performance etc.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate CSS code.
+- [W3C Html Checker](https://validator.w3.org/) was used to validate HTML code.
+- [Pic Resize](https://picresize.com/) was used to resize images available on the website to improve its performance.
+- [Ligthhouse](https://GitHub.com/GoogleChrome/lighthouse) was used to audit my website. The results of the audit were considered when making improvements to improve the website performance etc.
 - [Lamba Test](https://app.lambdatest.com/) was used to test the website on windows operating system.
 - [Am I responsive](http://ami.responsivedesign.is/) was used to view the website across several devices at once.
 - [W3C Spell checker](https://www.w3.org/2002/01/spellchecker) was used to check the spelling of the website.
@@ -216,7 +217,7 @@ Html pages were validated with [W3C Html Checker](https://validator.w3.org/nu) .
     - I removed these attributes from the html code and put styling for the iframe in style.css instead.
 - Error 3
   - The value of the for attribute of the label element must be the ID of a non-hidden form control.
-    - I had forgot the ID attribute for this form element. I added the ID for the relevant form element.
+    - I had forgotten the ID attribute for this form element. I added the ID for the relevant form element.
 
 CSS pages were validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) . 2 errors were discovered.
 
@@ -224,10 +225,10 @@ CSS pages were validated with [W3C CSS Validator](https://jigsaw.w3.org/css-vali
   - property overscroll-behaviour doesn't exist.
     - I looked online and verified that the property does exist according to [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior).
 - Error 2
-  - value error: font-weigth 1000 is not a font-weigth value.
+  - value error: font-weight 1000 is not a font-weight value.
     - I had previously looked up the maximum for this value and misinterpreted the answer to mean it was 1000. I changed this to 900 the maximum.
 
-After fixing the errors I re-ran all HTML and CSS files through the validators and only error present is the overscroll-behaviour error that can be ignore.
+After fixing the errors I re-ran all HTML and CSS files through the validators and only error present is the overscroll-behaviour error that can be ignored.
 
 ### Performance Testing
 
@@ -240,7 +241,7 @@ The first time I ran the audit on the home page, the performance was low as per 
 ![](assets/images/homepage-performance-1.png)
 
 The results were not unexpected as I had noticed that the page took several seconds to load. The outputs of the audit highlighted that the website image files were too large and causing performance issues.
-I used [Pic Resize](https://picresize.com/) to reduce the image size without sacrificing quality. I then reran the report and was happy that the performance was improved greatly across all pages and I could see this when I reloaded the page.
+I used [Pic Resize](https://picresize.com/) to reduce the image size without sacrificing quality. I then reran the report. I was happy the performance improved greatly across all pages and I could see this after reloading the page.
 
 ![](assets/images/homepage-performance-2.png)
 
@@ -264,7 +265,7 @@ According to Lighthouse using the a element with links to another page can pose 
 
 ### User Stories Testing
 
-From the user stories listed earlier the aims On a Plate Catering intends to meet currently can be summarised as:
+From the user stories listed earlier the objectives of On a Plate Catering currently intends to meet can be summarised as:
 
 - I would like to be able to view a menu of food.
 - I would like to be able to request a quote.
@@ -272,21 +273,21 @@ From the user stories listed earlier the aims On a Plate Catering intends to mee
 - I would like to contact the company for more queries.
 - I want to increase my brand awareness and social following.
 
-From Testing the aims are meet as follows:
+From Testing, the aims are met as follows:
 
 - I would like to be able to view a menu of food.
-  - The navigation bar clearly shows a user where the menu is.
-  - A call to action is shown on the home page with a button in the what we offer section leading the person to the menu.
+  - The navigation bar clearly shows the user where the menu is.
+  - A call to action is shown on the home page with a button in the 'what we offer' section leading the person to the menu.
 - I would like to be able to request a quote.
   - A call to action button is present on the landing page and is the first thing a user sees.
-  - On the menu page again a call to action button is present guiding the user to the quote page.
+  - On the menu page another call to action button is present guiding the user to the quote page.
   - The request a quote option is in the navigation bar.
 - I would like to see reviews from other customers who used service.
   - Testimonials are present on the landing page and are styled to grab the reader's attention.
 - I would like to contact the company for more queries.
   - Contact section is shown in the navigation bar.
 - I want to increase my brand awareness and social following.
-  - The footer on all pages has links to the social pages as is standard practice for websites and the user would know to navigate here.
+  - The footer on all pages has links to the social pages as is standard practice for websites and the user would know to navigate to this.
 
 ### Functionality Testing
 
@@ -299,7 +300,7 @@ I tested the functionality of the site on a laptop first.
 - I clicked the button on the menu page and the correct page loaded.
 - I click on the social icons in the footer on each page and verified that the desired social website opens in a new page.
 - On the contact page, I checked that the embedded map zoom function works and that when you click view larger map, it opens in a new page on google maps.
-- On the get a quote page, I checked each input to ensure I could enter data and for the drop down list that it works as expected. I pressed the submit button to check it acts as expected. When I build on my coding skills I would have a message appear when press submit.
+- On the get a quote page, I checked each input to ensure I could enter data and for the drop down list that it works as expected. I pressed the submit button to check it acts as expected. When I build on my coding skills I will have a message appearing once submit button is used.
 
 The testing was then conducted on a mobile and the above steps were repeated including testing the toggle of the menu, toggle open and close worked on all pages as expected.
 
@@ -308,7 +309,7 @@ The testing was then conducted on a mobile and the above steps were repeated inc
 The get a quote form was tested for validation.
 
 - I tested each input by leaving one blank at a time and checking the correct validation message is given. This worked for all cells except the drop down input.
-  - I then updated the code with required property for this field and retested all cells. The name, email, phone number and catering occasion all act as expected and are required. The additional text field is not required.
+  - I then updated the code with required property for this field and re-tested all the cells. The name, email, phone number and catering occasion fields acted as expected and are required to. The additional text field is not a required field.
 
 ### Compatibility Testing
 
@@ -341,7 +342,7 @@ Differences discovered across browsers:
 
 - The contact page form placeholder text inside fields is not centered on safari as styled. On Chrome, Firefox, Edge the placeholder text is centered.
 - The property overscroll-behaviour is not compatible with safari or Internet explorer. This was expected as documented by [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior).
-- If autofill a form field it changes the colour of the cell, the cell colour varies depending on the browser.
+- If using autofill, a form field changes the colour of the cell. The cell colour varies depending on the browser.
 - Internet explorer does not support the property Justify-content: space evenly. This was checked on [Can I us](https://caniuse.com/?search=justify-content). All other browsers tested do.
   - I fixed this using a media query for IE as per the suggestion on [Stack Overflow](https://stackoverflow.com/questions/28417056/how-to-target-only-ie-any-version-within-a-stylesheet) by setting flex grow as per suggestion on [Stack Overflow](https://stackoverflow.com/questions/47534216/how-to-make-css-justify-contentspace-evenly-fallback-to-space-between-on-safari).
 
@@ -364,14 +365,14 @@ This milestone project was deployed to GitHub Pages using the below steps:
 - At the top of this page navigate to "Settings" on the menu.
 - Scroll down until you reach the "GitHub Pages" Section on the settings page.
 - Under "Source", click the dropdown called "None" and select "main" branch.
-- The page will automatically reload.
+- The page will automatically re-load.
 - Scroll to the "GitHub Pages" Section and you will see the site published address displayed.
 
 To copy the repository so that you have access to all the files and any new changes will not affect the original repository follow the below steps:
 
 - Log into GitHub and locate the [On A Plate Catering](https://github.com/jojo157/onAPlateCatering) repository.
 - On the top far right click on the fork button.
-- This will add a copy of On A Plate repository to your respository.
+- This will add a copy of On A Plate repository to your repository.
 
 You can add the [On A Plate Catering](https://github.com/jojo157/onAPlateCatering) repository to your local machine using the below steps:
 
